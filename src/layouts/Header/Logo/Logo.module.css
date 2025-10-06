@@ -1,0 +1,18 @@
+.logo_wrapp {
+    width: 16%;
+
+    z-index: 1;
+}
+
+.logo_link {
+    color: black;
+}
+
+.logo_title {
+    line-height: 1.1em;
+    letter-spacing: .5px;
+
+    text-align: center;
+    font-size: 1rem;
+    font-family: var(--title-font);
+}

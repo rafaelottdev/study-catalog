@@ -1,0 +1,34 @@
+.manu_btn {
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.menu_bar {
+    width: 2.25rem;
+    height: 0.188rem;
+
+    background-color: black;
+}
+
+.menu_bar:not(:last-child) {
+    margin-bottom: 0.313rem;
+}
+
+/* --------- */
+.changeMenuHamburguer > .menu_bar {
+    transition: 3s;
+}
+
+.changeMenuHamburguer > .menu_bar:nth-child(1) {
+    transform: translateY(12px) rotate(-45deg);
+    background-color: white;
+}
+
+.changeMenuHamburguer > .menu_bar:nth-child(2) {
+    width: 0;
+}
+
+.changeMenuHamburguer > .menu_bar:nth-child(3) {
+    transform: translateY(-4px) rotate(45deg);
+    background-color: white;
+}

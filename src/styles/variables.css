@@ -1,0 +1,27 @@
+:root {
+    /* Text */
+    --title-font: "keania-one", sans-serif;
+    --subtitle-font: "nerko-one", sans-serif;
+    --text-font-1: "inter", sans-serif;
+    --text-font-2: "poppins", sans-serif;
+} 
+
+@font-face {
+    font-family: "keania-one";
+    src: url("../assets/fonts/keania-one/KeaniaOne-Regular.ttf");
+}
+
+@font-face {
+    font-family: "nerko-one";
+    src: url("../assets/fonts/nerko-one/NerkoOne-Regular.ttf");
+}
+
+@font-face {
+    font-family: "inter";
+    src: url("../assets/fonts/Inter/Inter-Regular.otf");
+}
+
+@font-face {
+    font-family: "poppins";
+    src: url("../assets/fonts/Poppins/Poppins-Regular.ttf");
+}
