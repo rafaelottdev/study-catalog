@@ -7,7 +7,6 @@ import arrowLogo from "../../../assets/icons/arrow-right.svg"
 
 import styles from "./Navbar.module.css"
 
-
 const Navbar = () => {
     const [show, setShow] = useState(false)
 

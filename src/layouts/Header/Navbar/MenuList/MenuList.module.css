@@ -5,17 +5,12 @@
 
     top: 0;
     right: -56%;
-    /* right: 0; */
     position: absolute;
 
     background-color: black;
 
     z-index: -1;
     transition: .3s;
-}
-
-.nav_item {
-
 }
 
 .nav_item_sublist {
@@ -33,14 +28,10 @@
     background-color: black;
 }
 
-.nav_link:hover {
+/* .nav_link:hover {
     color: black;
     background-color: white;
-}
-
-.nav_link:hover .more_icon_wrapp > svg {
-    fill: black;
-}
+} */
 
 .more_icon_wrapp  {
     margin-left: 5px;
@@ -54,7 +45,7 @@
 
 .more_sublist {
     position: absolute;
-    top: 100%;
+    top: 0%;
     left: 50%;
 
     transform: translate(-50%, 0%);
@@ -63,7 +54,7 @@
     justify-content: center;
     z-index: -1;
 
-    display: none;
+    transition: .3s;
 }
 
 .more_sublist_item {
@@ -79,8 +70,12 @@
     background-color: white;
 }
 
-/* ------------ */
+/* Estilos interativos */
 
-.show {
+.show_list {
     right: 0;
+}
+
+.show_sublist {
+    top: 100%;
 }

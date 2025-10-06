@@ -1,8 +1,12 @@
+import { useState } from "react"
+
 import styles from "./MenuList.module.css"
 
 const MenuList = ({ show }) => {
+    const [active, setActive] = useState(false)
+
     return (
-        <ul className={`${styles.nav_list} ${show ? `${styles.show}` : ""}`}>
+        <ul className={`${styles.nav_list} ${show ? `${styles.show_list}` : ""}`}>
             <li className={styles.nav_item}>
                 <a href="#" className={styles.nav_link}>Estudos</a>
             </li>
@@ -24,7 +28,7 @@ const MenuList = ({ show }) => {
             </li>
 
             <li className={`${styles.nav_item} ${styles.nav_item_sublist}`}>
-                <a href="#" className={styles.nav_link}>
+                <a href="#" className={styles.nav_link} onClick={() => {setActive(!active)}}>
                     Mais
 
                     <div className={styles.more_icon_wrapp}>
@@ -34,7 +38,7 @@ const MenuList = ({ show }) => {
                     </div>
                 </a>
 
-                <ul className={styles.more_sublist}>
+                <ul className={`${styles.more_sublist} ${active ? `${styles.show_sublist}` : ""}`}>
                     <li className={styles.more_sublist_item}>
                         <a href="#" className={styles.more_sublist_link}>Comunidade</a>
                     </li>

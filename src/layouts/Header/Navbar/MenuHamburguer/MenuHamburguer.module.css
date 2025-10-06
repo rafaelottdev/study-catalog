@@ -15,20 +15,20 @@
 }
 
 /* --------- */
-.changeMenuHamburguer > .menu_bar {
-    transition: 3s;
+.change_menu_hamburguer > .menu_bar {
+    transition: .3s;
 }
 
-.changeMenuHamburguer > .menu_bar:nth-child(1) {
+.change_menu_hamburguer > .menu_bar:nth-child(1) {
     transform: translateY(12px) rotate(-45deg);
     background-color: white;
 }
 
-.changeMenuHamburguer > .menu_bar:nth-child(2) {
+.change_menu_hamburguer > .menu_bar:nth-child(2) {
     width: 0;
 }
 
-.changeMenuHamburguer > .menu_bar:nth-child(3) {
+.change_menu_hamburguer > .menu_bar:nth-child(3) {
     transform: translateY(-4px) rotate(45deg);
     background-color: white;
 }
