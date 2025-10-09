@@ -1,5 +1,7 @@
 .home {
     margin-top: 50px;
+    position: relative;
+    z-index: -1;
 }
 
 .info_home_container {

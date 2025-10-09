@@ -1,6 +1,8 @@
 .manu_btn {
+    position: relative;
     cursor: pointer;
     background-color: transparent;
+    z-index: 2;
 }
 
 .menu_bar {
