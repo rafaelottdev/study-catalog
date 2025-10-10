@@ -3,8 +3,6 @@ import { useState } from "react"
 import MenuHamburguer from "./MenuHamburguer/MenuHamburguer"
 import MenuList from "./MenuList/MenuList"
 
-import arrowLogo from "../../../assets/icons/arrow-right.svg"
-
 import styles from "./Navbar.module.css"
 
 const Navbar = () => {

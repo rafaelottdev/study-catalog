@@ -1,11 +1,12 @@
 .nav_list {
+    width: var(--menu_list_width);
     height: 100vh;
 
     padding-top: 90px;
 
     top: 0;
-    right: -56%;
-    position: absolute;
+    right: calc(var(--menu_list_width) * -1);
+    position: fixed;
 
     background-color: black;
 
@@ -22,16 +23,11 @@
     display: flex;
 
     font-size: 1rem;
-    font-family: var(--text-font-1);
+    font-family: var(--text_font_1);
 
     color: white;
     background-color: black;
 }
-
-/* .nav_link:hover {
-    color: black;
-    background-color: white;
-} */
 
 .more_icon_wrapp  {
     margin-left: 5px;
@@ -65,7 +61,7 @@
     padding: 5px 10px;
 
     font-size: 0.875rem;
-    font-family: var(--text-font-1);
+    font-family: var(--text_font_1);
 
     background-color: white;
 }

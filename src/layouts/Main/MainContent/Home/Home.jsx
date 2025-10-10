@@ -7,7 +7,10 @@ const Home = () => {
                 <div className={styles.home_title_container}>
                     <p>Olá, meu nome é</p>
                     <h1>Rafael Ott</h1>
-                    <p>Desenvolvedor Full-Stack</p>
+
+                    <div className={styles.dev_function_wrapp}>
+                        <p>Desenvolvedor Full-Stack</p>
+                    </div>
                 </div>
 
                 <div className={styles.icon_home_info_container}>
@@ -24,14 +27,6 @@ const Home = () => {
                     </a>
                 </div>
             </section>
-
-            <section></section>
-
-            <section></section>
-
-            <section></section>
-
-            <section></section>
         </section>
     )
 }

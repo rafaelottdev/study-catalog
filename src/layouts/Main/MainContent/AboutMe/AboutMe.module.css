@@ -1,0 +1,38 @@
+.aboutMe_container {
+    margin: 0 0 var(--section_margin) 0;
+    padding: 0 30px;
+}
+
+.title_wrapp {
+    margin-bottom: 15px;
+
+    display: flex;
+    align-items: center;
+}
+
+.title_icon_wrapp {
+    width: 15px;
+    height: 17px;
+
+    margin: 1px 10px 0px 0px;
+
+    display: flex;
+}
+
+.title_icon_wrapp > svg {
+    width: inherit;
+    height: inherit;
+
+    fill: black;
+}
+
+.title {
+    font-family: var(--subtitle_font);
+    letter-spacing: var(--space_title_subtitle);
+}
+
+.text {
+    font-size: 12px;
+    font-family: var(--text_font_1);
+    line-height: 1.5em;
+}

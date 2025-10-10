@@ -1,9 +1,18 @@
 :root {
     /* Text */
-    --title-font: "keania-one", sans-serif;
-    --subtitle-font: "nerko-one", sans-serif;
-    --text-font-1: "inter", sans-serif;
-    --text-font-2: "poppins", sans-serif;
+    --title_font: "keania-one", sans-serif;
+    --subtitle_font: "nerko-one", sans-serif;
+    --text_font_1: "inter", sans-serif;
+    --text_font_2: "poppins", sans-serif;
+
+    /* menu list width */
+    --menu_list_width: 225px;
+
+    /* Letter space */
+    --space_title_subtitle: 1px;
+
+    /* section margin */
+    --section_margin: 50px;
 } 
 
 @font-face {

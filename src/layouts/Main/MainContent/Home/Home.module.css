@@ -1,7 +1,5 @@
 .home {
-    margin-top: 50px;
-    position: relative;
-    z-index: -1;
+    margin: 50px 0px 70px 0px;
 }
 
 .info_home_container {
@@ -12,8 +10,7 @@
 
 .home_title_container {
     text-align: center;
-    /* letter-spacing: .5px; */
-    font-family: var(--title-font);
+    font-family: var(--title_font);
 }
 
 .home_title_container > p:first-child {
@@ -28,13 +25,22 @@
     letter-spacing: 1px;
 }
 
-.home_title_container > p:nth-child(3) {
-    margin-top: 5px;
-    display: inline-block;
-    padding: 3px 8px;
+.dev_function_wrapp {
+    width: 165px;
+    height: 20px;
+
+    margin: 10px auto 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid black;
+}
+
+.dev_function_wrapp > p {
     font-size: 0.75rem;
     letter-spacing: .5px;
-    border: 1px solid black;
 }
 
 .icon_home_info_container {

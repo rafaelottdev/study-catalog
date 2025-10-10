@@ -16,7 +16,7 @@
     margin-bottom: 0.313rem;
 }
 
-/* --------- */
+/* ---- Menu Hamburguer transform ----- */
 .change_menu_hamburguer > .menu_bar {
     transition: .3s;
 }
