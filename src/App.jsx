@@ -7,6 +7,7 @@ import Header from './layouts/Header/Header'
 import MainLayout from './layouts/Main/MainLayout'
 
 import { useEffect, useState } from "react"
+import Footer from "./layouts/Footer/Footer"
 
 function App() {
   const [scrollPosition, setScrollPosition] = useState(0)
@@ -28,6 +29,8 @@ function App() {
       <Header scrollPosition={scrollPosition} />
 
       <MainLayout />
+
+      <Footer />
     </>
   )
 }
