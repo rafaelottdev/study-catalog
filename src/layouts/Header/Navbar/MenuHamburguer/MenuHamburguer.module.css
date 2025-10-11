@@ -34,3 +34,7 @@
     transform: translateY(-4px) rotate(45deg);
     background-color: white;
 }
+
+.scrolling > div {
+    background-color: white;
+}

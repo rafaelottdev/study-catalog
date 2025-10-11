@@ -1,6 +1,6 @@
 import MainContent from "./MainContent/MainContent"
 
-const MainLayout = () => {
+const MainLayout = (scroll) => {
     return (
         <main>
             <MainContent />

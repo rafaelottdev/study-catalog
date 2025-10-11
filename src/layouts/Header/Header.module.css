@@ -1,8 +1,8 @@
 .header {
     width: 100vw;
-    height: 65px;
+    height: var(--header_height);
 
-    padding: 25px 30px 0px 30px;
+    padding: 15px 30px 0px 30px;
 
     position: fixed;
     top: 0;
@@ -11,4 +11,25 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+}
+
+/* Estilo interativo */
+
+.header::after {
+    content: "";
+
+    width: 100%;
+    height: var(--header_height);
+
+    position: absolute;
+    top: calc(var(--header_height) * -1);
+    left: 0;
+    
+    background-color: black;
+
+    transition: top .1s;
+}
+
+.header.scrolling::after {
+    top: 0;
 }

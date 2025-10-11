@@ -5,12 +5,12 @@ import MenuList from "./MenuList/MenuList"
 
 import styles from "./Navbar.module.css"
 
-const Navbar = () => {
+const Navbar = ({ isScrolling }) => {
     const [show, setShow] = useState(false)
 
     return (
         <nav>
-            <MenuHamburguer onClick={() => setShow(!show)} show={show}/>
+            <MenuHamburguer onClick={() => setShow(!show)} show={show} isScrolling={isScrolling} />
 
             <MenuList show={show}/>
         </nav>

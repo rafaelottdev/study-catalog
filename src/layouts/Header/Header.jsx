@@ -3,12 +3,18 @@ import Navbar from "./Navbar/Navbar.jsx"
 
 import styles from "./Header.module.css"
 
-const Header = () => {
+const Header = ({ scrollPosition }) => {
+    let isScrolling = false
+
+    if(scrollPosition > 0) {
+        isScrolling = true
+    }
+
     return (
-        <header className={styles.header}>
-            <Logo />
+        <header className={`${styles.header} ${isScrolling ? `${styles.scrolling}` : ""}`}>
+            <Logo isScrolling={isScrolling} />
             
-            <Navbar />
+            <Navbar isScrolling={isScrolling} />
         </header>
     )
 }

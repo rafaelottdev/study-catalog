@@ -8,6 +8,9 @@
     /* menu list width */
     --menu_list_width: 225px;
 
+    /* header height */
+    --header_height: 65px;
+
     /* Letter space */
     --space_title_subtitle: 1px;
 
