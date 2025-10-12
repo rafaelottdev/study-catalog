@@ -1,9 +1,9 @@
-import MainContent from "./MainContent/MainContent"
+import { Outlet } from "react-router-dom"
 
 const MainLayout = (scroll) => {
     return (
         <main>
-            <MainContent />
+            <Outlet />
         </main>
     )
 }
