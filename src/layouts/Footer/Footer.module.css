@@ -1,4 +1,8 @@
 .footer {
+    display: none;
+}
+
+.info_wrapp {
     padding: 10px 0px;
 
     display: flex;
@@ -8,7 +12,7 @@
     background-color: black;
 }
 
-.footer > p {
+.info_wrapp > p {
     font-size: 0.75rem;
     font-family: var(--text_font_1);
     letter-spacing: .3px;

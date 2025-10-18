@@ -1,0 +1,114 @@
+svg {
+    width: 8px;
+    fill: white;
+}
+
+.tecnology_nav {
+    margin-bottom: 35px;
+    padding: 20px;
+
+    /* position: relative; */
+}
+
+.intro_list {
+    position: absolute;
+    background-color: white;
+}
+
+.intro_wrapp {
+    width: 120px;
+    height: 25px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1px;
+}
+
+.intro_wrapp > a {
+    height: 25px;
+    padding: 0 15px;
+
+    display: flex;
+    align-items: center;
+
+    font-family: var(--text_font_1);
+    font-size: 12px;
+    letter-spacing: .5px;
+
+    color: white;
+    background-color: black;
+}
+
+.intro_icon_btn {
+    width: 23px;
+    height: inherit;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: black;
+}
+
+.tecnology_list {
+    width: 120px;
+
+    height: 0;
+
+    overflow: hidden;
+
+    background-color: white;
+}
+
+.tecnology_wrapp {
+    width: inherit;
+    height: 25px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1px;
+
+    border-top: 1px solid rgba(0, 0, 0, 0.10);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.10);
+}
+
+.tecnology_wrapp > a {
+    width: 100%;
+    height: 25px;
+
+    padding: 0 0 0 15px;
+
+    display: flex;
+    align-items: center;
+
+    font-family: var(--text_font_1);
+    font-size: 12px;
+    letter-spacing: .5px;
+
+    color: black;
+}
+
+.tecnology_icon_btn {
+    width: 29.5px;
+    height: inherit;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tecnology_icon_btn > svg {
+    fill: black;
+}
+
+/* estilo Interativo */
+
+.icon_rotate > svg {
+    transform: translateY(2px) translateX(-.3px) rotate(90deg);
+}
+
+.expand {
+    height: auto;
+}

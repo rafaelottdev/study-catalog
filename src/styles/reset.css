@@ -15,3 +15,7 @@ html, body {
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
+
+button {
+    background-color: transparent;
+}

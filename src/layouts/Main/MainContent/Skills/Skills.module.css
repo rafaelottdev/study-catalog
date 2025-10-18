@@ -63,6 +63,7 @@
 
 .skills_icon_wrapp > svg {
     width: 18px;
+    fill: black;
 }
 
 .skills_name {
