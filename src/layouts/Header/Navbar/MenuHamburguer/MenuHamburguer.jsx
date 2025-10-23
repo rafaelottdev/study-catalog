@@ -1,6 +1,6 @@
 import styles from "./MenuHamburguer.module.css"
 
-const MenuHamburguer = ({ onClick, show, isScrolling }) => {
+const MenuHamburguer = ({ onClick, show, setShow, isScrolling }) => {
     return (
         <button 
         className={`

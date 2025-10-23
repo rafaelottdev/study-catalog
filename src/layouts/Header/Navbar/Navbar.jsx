@@ -1,18 +1,14 @@
-import { useState } from "react"
-
 import MenuHamburguer from "./MenuHamburguer/MenuHamburguer"
 import MenuList from "./MenuList/MenuList"
 
 import styles from "./Navbar.module.css"
 
-const Navbar = ({ isScrolling }) => {
-    const [show, setShow] = useState(false)
-
+const Navbar = ({ isScrolling, show, setShow }) => {
     return (
         <nav>
-            <MenuHamburguer onClick={() => setShow(!show)} show={show} isScrolling={isScrolling} />
+            <MenuHamburguer onClick={() => setShow(!show)} show={show} setShow={setShow} isScrolling={isScrolling} />
 
-            <MenuList show={show}/>
+            <MenuList show={show} setShow={setShow}/>
         </nav>
     )
 }

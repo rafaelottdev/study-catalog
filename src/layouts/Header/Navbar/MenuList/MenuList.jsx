@@ -3,29 +3,29 @@ import { Link } from "react-router-dom"
 
 import styles from "./MenuList.module.css"
 
-const MenuList = ({ show }) => {
+const MenuList = ({ show, setShow }) => {
     const [active, setActive] = useState(false)
 
     return (
         <ul className={`${styles.nav_list} ${show ? `${styles.show_list}` : ""}`}>
-            <li className={styles.nav_item}>
+            <li className={styles.nav_item} onClick={() => setShow(!show)}>
                 <Link to="/estudando" className={styles.nav_link}>Estudos</Link>
             </li>
 
             <li className={styles.nav_item}>
-                <Link to="/projetos" className={styles.nav_link}>Projetos</Link>
+                <Link to="/projetos" className={styles.nav_link} onClick={() => setShow(!show)}>Projetos</Link>
             </li>
 
             <li className={styles.nav_item}>
-                <Link to="/recomendações" className={styles.nav_link}>Recomendações</Link>
+                <Link to="/recomendações" className={styles.nav_link} onClick={() => setShow(!show)}>Recomendações</Link>
             </li>
 
             <li className={styles.nav_item}>
-                <Link to="/trabalhando" className={styles.nav_link}>Trabalhando</Link>
+                <Link to="/trabalhando" className={styles.nav_link} onClick={() => setShow(!show)}>Trabalhando</Link>
             </li>
 
             <li className={styles.nav_item}>
-                <Link to="/blog" className={styles.nav_link}>Blog</Link>
+                <Link to="/blog" className={styles.nav_link} onClick={() => setShow(!show)}>Blog</Link>
             </li>
 
             <li className={`${styles.nav_item} ${styles.nav_item_sublist}`}>
@@ -41,7 +41,7 @@ const MenuList = ({ show }) => {
 
                 <ul className={`${styles.more_sublist} ${active ? `${styles.show_sublist}` : ""}`}>
                     <li className={styles.more_sublist_item}>
-                        <Link to="/comunidade" className={styles.more_sublist_link}>Comunidade</Link>
+                        <Link to="/comunidade" className={styles.more_sublist_link} onClick={() => setShow(!show)}>Comunidade</Link>
                     </li>
                 </ul>
             </li>

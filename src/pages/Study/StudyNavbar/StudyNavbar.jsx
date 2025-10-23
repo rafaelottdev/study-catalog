@@ -48,7 +48,6 @@ const studyNavbar = () => {
     ]
 
     const [isExpanded, setIsExpanded] = useState(false)
-    // const [isSubListExpanded, setIsSubListExpanded] = useState(false)
 
     const [activeItems, setActiveItems] = useState({})
 
@@ -69,8 +68,10 @@ const studyNavbar = () => {
                         <Link to="">Introdução</Link>
 
                         <button 
-                        className={`${styles.intro_icon_btn} ${isExpanded ? `${styles.icon_rotate}` : ""}`} 
-                        onClick={() => setIsExpanded(!isExpanded)}
+                        className={`
+                            ${styles.intro_icon_btn} 
+                            ${isExpanded ? `${styles.icon_rotate}` : ""}`} 
+                            onClick={() => setIsExpanded(!isExpanded)}
                         >
                             <svg viewBox="0 0 20 26">
                                 <path d="M14.4036 14.4442L2.88031 26L0 23.1116L10.0831 13L0 2.88843L2.88031 0L14.4036 11.5558C14.7855 11.9389 15 12.4583 15 13C15 13.5417 14.7855 14.0611 14.4036 14.4442Z"/>
