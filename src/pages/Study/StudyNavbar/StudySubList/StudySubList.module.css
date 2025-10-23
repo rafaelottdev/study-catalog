@@ -1,5 +1,5 @@
 .tecnology_sublist {
-    /* height: ; */
+    height: 0;
     overflow: hidden;
     padding-left: 20px;
 }
@@ -35,4 +35,10 @@
 .tecnology_item_sublist:last-child > a {
     border-left: 1px solid rgba(0, 0, 0, 0.10);
     border-right: 1px solid rgba(0, 0, 0, 0.10);
+}
+
+/* estilo Interativo */
+
+.expand_sublist {
+    height: auto;
 }

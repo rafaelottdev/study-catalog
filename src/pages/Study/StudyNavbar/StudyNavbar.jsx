@@ -48,12 +48,17 @@ const studyNavbar = () => {
     ]
 
     const [isExpanded, setIsExpanded] = useState(false)
-    const [isSubListExpanded, setIsSubListExpanded] = useState(false)
+    // const [isSubListExpanded, setIsSubListExpanded] = useState(false)
 
-    const [activeId, setActiveId] = useState(null)
+    const [activeItems, setActiveItems] = useState({})
 
-    function handleClick(id) {
-        setActiveId(prev => (prev === id ? null : id))
+    function toggleItem(id) {
+        setActiveItems(prev => (
+            {
+                ...prev,
+                [id]: !prev[id]
+            }
+        ))
     }
 
     return (
@@ -63,7 +68,10 @@ const studyNavbar = () => {
                     <div className={styles.intro_wrapp}>
                         <Link to="">Introdução</Link>
 
-                        <button className={`${styles.intro_icon_btn} ${isExpanded ? `${styles.icon_rotate}` : ""}`} onClick={() => setIsExpanded(!isExpanded)}>
+                        <button 
+                        className={`${styles.intro_icon_btn} ${isExpanded ? `${styles.icon_rotate}` : ""}`} 
+                        onClick={() => setIsExpanded(!isExpanded)}
+                        >
                             <svg viewBox="0 0 20 26">
                                 <path d="M14.4036 14.4442L2.88031 26L0 23.1116L10.0831 13L0 2.88843L2.88031 0L14.4036 11.5558C14.7855 11.9389 15 12.4583 15 13C15 13.5417 14.7855 14.0611 14.4036 14.4442Z"/>
                             </svg>
@@ -78,14 +86,19 @@ const studyNavbar = () => {
                                         <div className={styles.tecnology_wrapp}>
                                             <Link to="">{objList.title}</Link>
 
-                                            <button className={`${styles.tecnology_icon_btn} ${activeId === objList.id ? `${styles.icon_rotate}` : ""}`} onClick={() => handleClick(objList.id)}>
+                                            <button 
+                                                className={`
+                                                    ${styles.tecnology_icon_btn} 
+                                                    ${activeItems[objList.id] ? `${styles.icon_rotate}` : ""}`}
+                                                    onClick={() => toggleItem(objList.id)}
+                                            >
                                                 <svg viewBox="0 0 20 26">
                                                     <path d="M14.4036 14.4442L2.88031 26L0 23.1116L10.0831 13L0 2.88843L2.88031 0L14.4036 11.5558C14.7855 11.9389 15 12.4583 15 13C15 13.5417 14.7855 14.0611 14.4036 14.4442Z"/>
                                                 </svg>
                                             </button>
                                         </div>
 
-                                        <StudySubList objList={objList} />
+                                        <StudySubList objList={objList} activeItems={activeItems} />
                                     </li>
                                 )
                             })
@@ -98,5 +111,5 @@ const studyNavbar = () => {
 }
 
 export default studyNavbar
-// fazer para o submenu do menu principal e para o header, o bizu do height ao invés de pegar de cima e ir para baixo (animação)
+
 // utilizar useParams para rotas dinamicas, sem precisar ficar fazendo na unha uma por uma, colocar o nome da rota aqui para não ficar apenas um numero, tipo ao invés de /estudando/1 ficar /estudando/html-css-cursos, colocar dois, um para o cursos e outro para especificos /estudando/html-css-especificos etc.
