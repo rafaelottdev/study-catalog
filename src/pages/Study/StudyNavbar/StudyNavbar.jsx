@@ -8,36 +8,47 @@ const studyNavbar = () => {
         {
             id: 1,
             title: "Html / Css",
-            items: ["Cursos", "Especificos"]
+            url: "html+css",
+            items: {
+                url: "",
+                item: ["Cursos", "Especificos"]
+            }
+            
         },
         {
             id: 2,
             title: "Javascript",
+            url: "javascript",
             items: ["Cursos", "Especificos"]
         },
         {
             id: 3,
             title: "Typescript",
+            url: "typescript",
             items: ["Cursos", "Documentação"]
         },
         {
             id: 4,
             title: "React",
+            url: "react",
             items: ["Cursos", "Soltos", "Pratica"]
         },
         {
             id: 5,
             title: "Vue",
+            url: "vue",
             items: ["Cursos", "Soltos", "Pratica"]
         },
         {
             id: 6,
             title: "Git",
+            url: "git",
             items: ["Cursos"]
         },
         {
             id: 7,
             title: "Linux",
+            url: "linux",
             items: ["Cursos", "Soltos", "Imagens"]
         },
         {
@@ -85,7 +96,7 @@ const studyNavbar = () => {
                                 return (
                                     <li key={objList.id} className={styles.tecnology_item}>
                                         <div className={styles.tecnology_wrapp}>
-                                            <Link to="">{objList.title}</Link>
+                                            <Link to="">{objList.title}</Link> {/* no to terá ${objList.url} para os items tbm, só que será javascript/cursos pegar a url atual e adicionar essas outras */}
 
                                             <button 
                                                 className={`

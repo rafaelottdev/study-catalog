@@ -10,6 +10,9 @@ import Working from "../pages/Working/Working"
 import Blog from "../pages/Blog/Blog"
 import Community from "../pages/Community/Community"
 
+import StudyContent from "../pages/Study/StudyContent/StudyContent"
+import Intro from "../pages/Study/StudyContent/Intro/Intro"
+
 
 export const router = createBrowserRouter(
     [
@@ -18,8 +21,11 @@ export const router = createBrowserRouter(
             element: <App />,
             children: [
                 {path: "", element: <MainContent />},
-
-                {path: "estudando", element: <Study />},
+                {path: "estudando", element: <Study />,
+                    children: [
+                        { index: true, element: <Intro /> }
+                    ]
+                },
                 {path: "projetos", element: < Projects/>},
                 {path: "recomendações", element: < Recommendations/>},
                 {path: "trabalhando", element: < Working/>},
