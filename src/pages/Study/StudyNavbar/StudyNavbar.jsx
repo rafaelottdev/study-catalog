@@ -8,10 +8,10 @@ const studyNavbar = () => {
         {
             id: 1,
             title: "Html / Css",
-            url: "html+css",
+            url: "htmlcss",
             items: {
                 url: "",
-                item: ["Cursos", "Especificos"]
+                topics: ["Cursos", "Especificos"]
             }
             
         },
@@ -19,42 +19,64 @@ const studyNavbar = () => {
             id: 2,
             title: "Javascript",
             url: "javascript",
-            items: ["Cursos", "Especificos"]
+            items: {
+                url: "",
+                topics: ["Cursos", "Especificos"]
+            }
         },
         {
             id: 3,
             title: "Typescript",
             url: "typescript",
-            items: ["Cursos", "Documentação"]
+            items: {
+                url: "",
+                topics: ["Cursos", "Documentação"]
+            }
         },
         {
             id: 4,
             title: "React",
             url: "react",
-            items: ["Cursos", "Soltos", "Pratica"]
+            items: {
+                url: "",
+                topics: ["Cursos", "Soltos", "Pratica"]
+            }
+            
         },
         {
             id: 5,
             title: "Vue",
             url: "vue",
-            items: ["Cursos", "Soltos", "Pratica"]
+            items: {
+                url: "",
+                topics: ["Cursos", "Soltos", "Pratica"]
+            }
         },
         {
             id: 6,
             title: "Git",
             url: "git",
-            items: ["Cursos"]
+            items: {
+                url: "",
+                topics: ["Cursos"]
+            }
         },
         {
             id: 7,
             title: "Linux",
             url: "linux",
-            items: ["Cursos", "Soltos", "Imagens"]
+            items: {
+                url: "",
+                topics: ["Cursos", "Soltos", "Imagens"]
+            }
         },
         {
             id: 8,
             title: "Outros",
-            items: []
+            items: {
+                url: "outros",
+                topics: []
+            }
         }
     ]
 
@@ -96,7 +118,7 @@ const studyNavbar = () => {
                                 return (
                                     <li key={objList.id} className={styles.tecnology_item}>
                                         <div className={styles.tecnology_wrapp}>
-                                            <Link to="">{objList.title}</Link> {/* no to terá ${objList.url} para os items tbm, só que será javascript/cursos pegar a url atual e adicionar essas outras */}
+                                            <Link to={`/estudando/${objList.url}`}>{objList.title}</Link>
 
                                             <button 
                                                 className={`
