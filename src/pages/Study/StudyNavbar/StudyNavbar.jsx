@@ -8,9 +8,9 @@ const studyNavbar = () => {
         {
             id: 1,
             title: "Html / Css",
-            url: "htmlcss",
+            path: "htmlcss",
             items: {
-                url: "",
+                path: "",
                 topics: ["Cursos", "Especificos"]
             }
             
@@ -18,27 +18,27 @@ const studyNavbar = () => {
         {
             id: 2,
             title: "Javascript",
-            url: "javascript",
+            path: "javascript",
             items: {
-                url: "",
+                path: "",
                 topics: ["Cursos", "Especificos"]
             }
         },
         {
             id: 3,
             title: "Typescript",
-            url: "typescript",
+            path: "typescript",
             items: {
-                url: "",
+                path: "",
                 topics: ["Cursos", "Documentação"]
             }
         },
         {
             id: 4,
             title: "React",
-            url: "react",
+            path: "react",
             items: {
-                url: "",
+                path: "",
                 topics: ["Cursos", "Soltos", "Pratica"]
             }
             
@@ -46,35 +46,36 @@ const studyNavbar = () => {
         {
             id: 5,
             title: "Vue",
-            url: "vue",
+            path: "vue",
             items: {
-                url: "",
+                path: "",
                 topics: ["Cursos", "Soltos", "Pratica"]
             }
         },
         {
             id: 6,
             title: "Git",
-            url: "git",
+            path: "git",
             items: {
-                url: "",
+                path: "",
                 topics: ["Cursos"]
             }
         },
         {
             id: 7,
             title: "Linux",
-            url: "linux",
+            path: "linux",
             items: {
-                url: "",
+                path: "",
                 topics: ["Cursos", "Soltos", "Imagens"]
             }
         },
         {
             id: 8,
             title: "Outros",
+            path: "outros",
             items: {
-                url: "outros",
+                path: "outros",
                 topics: []
             }
         }
@@ -118,7 +119,7 @@ const studyNavbar = () => {
                                 return (
                                     <li key={objList.id} className={styles.tecnology_item}>
                                         <div className={styles.tecnology_wrapp}>
-                                            <Link to={`/estudando/${objList.url}`}>{objList.title}</Link>
+                                            <Link to={`/estudando/${objList.path}`}>{objList.title}</Link>
 
                                             <button 
                                                 className={`
