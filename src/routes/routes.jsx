@@ -11,13 +11,37 @@ import Blog from "../pages/Blog/Blog"
 import Community from "../pages/Community/Community"
 
 import Intro from "../pages/Study/StudyContent/Intro/Intro"
+
 import HtmlCss from "../pages/Study/StudyContent/HtmlCss/HtmlCss"
+    import HtmlCssCursos from "../pages/Study/StudyContent/HtmlCss/Cursos/HtmlCssCursos"
+    import HtmlCssEspecificos from "../pages/Study/StudyContent/HtmlCss/Especificos/HtmlCssEspecificos"
+
 import Javascript from "../pages/Study/StudyContent/Javascript/Javascript"
+    import JsCursos from "../pages/Study/StudyContent/Javascript/Cursos/JsCursos"
+    import JsEspecificos from "../pages/Study/StudyContent/Javascript/Especificos/JsEspecificos"
+
 import Typescript from "../pages/Study/StudyContent/Typescript/Typescript"
+    import TsCursos from "../pages/Study/StudyContent/Typescript/Cursos/TsCursos"
+    import TsDocs from "../pages/Study/StudyContent/Typescript/Documentações/TsDocs"
+
 import React from "../pages/Study/StudyContent/React/React"
+    import ReactCursos from "../pages/Study/StudyContent/React/Cursos/ReactCursos"
+    import ReactPratica from "../pages/Study/StudyContent/React/Pratica/ReactPratica"
+    import ReactSoltos from "../pages/Study/StudyContent/React/Soltos/ReactSoltos"
+
 import Vue from "../pages/Study/StudyContent/Vue/Vue"
+    import VueCursos from "../pages/Study/StudyContent/Vue/Cursos/VueCursos"
+    import VuePratica from "../pages/Study/StudyContent/Vue/Pratica/VuePratica"
+    import VueSoltos from "../pages/Study/StudyContent/Vue/Soltos/VueSoltos"
+
 import Git from "../pages/Study/StudyContent/Git/Git"
+    import GitCursos from "../pages/Study/StudyContent/Git/Cursos/GitCursos"
+
 import Linux from "../pages/Study/StudyContent/Linux/Linux"
+    import LinuxCursos from "../pages/Study/StudyContent/Linux/Cursos/LinuxCursos"
+    import LinuxImagens from "../pages/Study/StudyContent/Linux/Imagens/LinuxImagens"
+    import LinuxSoltos from "../pages/Study/StudyContent/Linux/Soltos/LinuxSoltos"
+
 import Outros from "../pages/Study/StudyContent/Outros/Outros"
 
 
@@ -34,13 +58,37 @@ export const router = createBrowserRouter(
                     element: <Study />,
                     children: [
                         { index: true, element: <Intro /> },
+
                         {path: "htmlcss", element: <HtmlCss />},
+                            {path: "htmlcss/cursos", element: <HtmlCssCursos />},
+                            {path: "htmlcss/especificos", element: <HtmlCssEspecificos />},
+
                         {path: "javascript", element: <Javascript />},
+                            {path: "javascript/cursos", element: <JsCursos />},
+                            {path: "javascript/especificos", element: <JsEspecificos />},
+
                         {path: "typescript", element: <Typescript />},
+                            {path: "typescript/cursos", element: <TsCursos />},
+                            {path: "typescript/docs", element: <TsDocs />},
+
                         {path: "react", element: <React />},
+                            {path: "react/cursos", element: <ReactCursos />},
+                            {path: "react/pratica", element: <ReactPratica />},
+                            {path: "react/soltos", element: <ReactSoltos />},
+
                         {path: "vue", element: <Vue />},
+                            {path: "react/cursos", element: <VueCursos />},
+                            {path: "react/pratica", element: <VuePratica />},
+                            {path: "react/soltos", element: <VueSoltos />},
+
                         {path: "git", element: <Git />},
+                            {path: "git/cursos", element: <GitCursos />},
+
                         {path: "linux", element: <Linux />},
+                            {path: "linux/cursos", element: <LinuxCursos />},
+                            {path: "linux/imagens", element: <LinuxImagens />},
+                            {path: "linux/soltos", element: <LinuxSoltos />},
+
                         {path: "outros", element: <Outros />}
                     ]
                 },

@@ -10,7 +10,6 @@ const studyNavbar = () => {
             title: "Html / Css",
             path: "htmlcss",
             items: {
-                path: "",
                 topics: ["Cursos", "Especificos"]
             }
             
@@ -20,7 +19,6 @@ const studyNavbar = () => {
             title: "Javascript",
             path: "javascript",
             items: {
-                path: "",
                 topics: ["Cursos", "Especificos"]
             }
         },
@@ -29,7 +27,6 @@ const studyNavbar = () => {
             title: "Typescript",
             path: "typescript",
             items: {
-                path: "",
                 topics: ["Cursos", "Documentação"]
             }
         },
@@ -38,7 +35,6 @@ const studyNavbar = () => {
             title: "React",
             path: "react",
             items: {
-                path: "",
                 topics: ["Cursos", "Soltos", "Pratica"]
             }
             
@@ -48,7 +44,6 @@ const studyNavbar = () => {
             title: "Vue",
             path: "vue",
             items: {
-                path: "",
                 topics: ["Cursos", "Soltos", "Pratica"]
             }
         },
@@ -57,7 +52,6 @@ const studyNavbar = () => {
             title: "Git",
             path: "git",
             items: {
-                path: "",
                 topics: ["Cursos"]
             }
         },
@@ -66,7 +60,6 @@ const studyNavbar = () => {
             title: "Linux",
             path: "linux",
             items: {
-                path: "",
                 topics: ["Cursos", "Soltos", "Imagens"]
             }
         },
@@ -75,7 +68,6 @@ const studyNavbar = () => {
             title: "Outros",
             path: "outros",
             items: {
-                path: "outros",
                 topics: []
             }
         }
@@ -146,5 +138,3 @@ const studyNavbar = () => {
 }
 
 export default studyNavbar
-
-// utilizar useParams para rotas dinamicas, sem precisar ficar fazendo na unha uma por uma, colocar o nome da rota aqui para não ficar apenas um numero, tipo ao invés de /estudando/1 ficar /estudando/html-css-cursos, colocar dois, um para o cursos e outro para especificos /estudando/html-css-especificos etc.

@@ -9,7 +9,7 @@ const StudySubList = ({ objList, activeItems }) => {
                 objList.items.topics.map((subList, id) => {
                     return (
                         <li key={id} className={styles.tecnology_item_sublist}>
-                            <Link to="">{subList}</Link>
+                            <Link to={`/estudando/${objList.title.replace(/[ /]/g, "").toLowerCase()}/${subList.toLowerCase()}`}>{subList}</Link>
                         </li>
                     )
                 })
