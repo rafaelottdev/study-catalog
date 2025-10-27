@@ -31,6 +31,13 @@
 @font-face {
     font-family: "inter";
     src: url("../assets/fonts/Inter/Inter-Regular.otf");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "inter";
+    src: url("../assets/fonts/Inter/Inter-Bold.otf");
+    font-weight: bold;
 }
 
 @font-face {

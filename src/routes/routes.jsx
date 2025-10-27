@@ -4,7 +4,7 @@ import App from "../App"
 import MainContent from "../layouts/Main/MainContent/MainContent"
 
 import Study from "../pages/Study/Study"
-import Projects from "../pages/Projects/Projects"
+import ProjectsPage from "../pages/ProjectsPage/ProjectsPage"
 import Recommendations from "../pages/Recommendations/Recommendations"
 import Working from "../pages/Working/Working"
 import Blog from "../pages/Blog/Blog"
@@ -93,7 +93,7 @@ export const router = createBrowserRouter(
                     ]
                 },
 
-                {path: "projetos", element: < Projects/>},
+                {path: "projetos", element: <ProjectsPage />},
                 {path: "recomendações", element: < Recommendations/>},
                 {path: "trabalhando", element: < Working/>},
                 {path: "blog", element: < Blog/>},

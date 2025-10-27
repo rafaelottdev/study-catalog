@@ -1,0 +1,129 @@
+.project_container {
+    padding: 0 30px;
+}
+
+.title_wrapp {
+    margin-bottom: 10px;
+
+    display: flex;
+    justify-content: center;
+
+    /* background-color: red; */
+}
+
+.title_wrapp > h3 {
+    font-size: 1.125rem;
+    font-family: var(--subtitle_font);
+    letter-spacing: .5px;
+    text-transform: uppercase;
+}
+
+.img_wrapp {
+    width: 100%;
+    height: 170px;
+    overflow: hidden;
+
+    margin-bottom: 15px;
+
+    background-color: red;
+}
+
+.img_wrapp > img {
+    width: inherit;
+    height: auto;
+
+    animation: scroll_image 8s linear infinite;
+    will-change: transform;
+}
+
+.info_container {
+    font-family: var(--text_font_1);
+    font-size: 12px;
+    letter-spacing: .5px;
+    line-height: 1.5em;
+}
+
+.info_container > p {
+    margin-bottom: 5px;
+}
+
+.feature_wrapp {
+    margin-bottom: 5px;
+}
+
+.feature_wrapp > p > span, .tecnology_container > p {
+    font-family: var(--text_font_1);
+    font-weight: bold;
+}
+
+.tecnology_container {
+    display: flex;
+    align-items: center;
+
+    /* background-color: red; */
+}
+
+.tecnology_icon_wrapp {
+    margin-left: 5px;
+
+    display: flex;
+    align-items: center;
+
+    /* background-color: blue; */
+}
+
+.tecnology_icon_wrapp > svg {
+    width: 13px;
+    /* stroke: black; */
+    fill: black;
+}
+
+.tecnology_icon_wrapp > svg:first-child {
+    margin-top: 1px;
+}
+
+.tecnology_icon_wrapp > svg:not(:last-child) {
+    margin-right: 5px;
+}
+
+.button_wrapp {
+    margin-top: 25px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.button_wrapp > button {
+    width: 60px;
+    height: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 0.875rem;
+
+    border: 1px solid black;
+}
+
+.button_wrapp > button:first-child {
+    margin-right: 10px;
+}
+
+@keyframes scroll_image {
+    0% {
+        transform: translateY(0%);
+    }
+
+    90% {
+        transform: translateY(calc(-100% + 170px));
+    }
+
+    91% {
+        transform: translateY(0%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}

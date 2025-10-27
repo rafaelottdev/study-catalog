@@ -11,6 +11,8 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+
+    z-index: 9999;
 }
 
 /* Estilo interativo */
