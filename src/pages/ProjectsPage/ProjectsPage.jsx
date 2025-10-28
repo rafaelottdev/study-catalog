@@ -32,9 +32,9 @@ const Projects = () => {
 
     return (
         <section className={styles.projects_container}>
-            <section className={styles.projects_title}>
+            <div className={styles.projects_title}>
                 <h2>Projetos</h2>
-            </section>
+            </div>
 
             <section>
                 {

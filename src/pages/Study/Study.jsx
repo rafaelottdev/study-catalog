@@ -8,9 +8,9 @@ import styles from "./Study.module.css"
 const Study = () => {
     return (
         <section className={styles.study_container}>
-            <section className={styles.study_title}>
+            <div className={styles.study_title}>
                 <h2>Estudos</h2>
-            </section>
+            </div>
 
             <StudyNavbar />
 
