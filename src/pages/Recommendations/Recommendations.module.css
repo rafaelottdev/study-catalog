@@ -1,0 +1,13 @@
+.recommendation_title {
+    margin-top: 30px;
+    margin-bottom: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.recommendation_title > h2 {
+    font-family: var(--subtitle_font);
+    letter-spacing: 1px;
+}
