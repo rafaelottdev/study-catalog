@@ -3,13 +3,13 @@ import { createBrowserRouter } from "react-router-dom"
 import App from "../App"
 import MainContent from "../layouts/Main/MainContent/MainContent"
 
-import Study from "../pages/Study/Study"
+
 import ProjectsPage from "../pages/ProjectsPage/ProjectsPage"
-import Recommendations from "../pages/Recommendations/Recommendations"
 import Working from "../pages/Working/Working"
 import Blog from "../pages/Blog/Blog"
 import Community from "../pages/Community/Community"
 
+import Study from "../pages/Study/Study"
 import Intro from "../pages/Study/StudyContent/Intro/Intro"
 
 import HtmlCss from "../pages/Study/StudyContent/HtmlCss/HtmlCss"
@@ -44,6 +44,16 @@ import Linux from "../pages/Study/StudyContent/Linux/Linux"
 
 import Outros from "../pages/Study/StudyContent/Outros/Outros"
 
+import Recommendations from "../pages/Recommendations/Recommendations"
+    import Videos from "../pages/Recommendations/RecommendationContent/Videos/Videos"
+    import Canais from "../pages/Recommendations/RecommendationContent/Canais/Canais"
+    import Sites from "../pages/Recommendations/RecommendationContent/Sites/Sites"
+    import Ferramentas from "../pages/Recommendations/RecommendationContent/Ferramentas/Ferramentas"
+    import Plataformas from "../pages/Recommendations/RecommendationContent/Plataformas/Plataformas"
+    import Livros from "../pages/Recommendations/RecommendationContent/Livros/Livros"
+    import Cursos from "../pages/Recommendations/RecommendationContent/Cursos/Cursos"
+    import Inspirações from "../pages/Recommendations/RecommendationContent/Inspirações/Inspirações"
+    import Imagens from "../pages/Recommendations/RecommendationContent/Imagens/Imagens"
 
 export const router = createBrowserRouter(
     [
@@ -94,7 +104,23 @@ export const router = createBrowserRouter(
                 },
 
                 {path: "projetos", element: <ProjectsPage />},
-                {path: "recomendações", element: < Recommendations/>},
+
+                {
+                    path: "recomendações", 
+                    element: <Recommendations />,
+                    children: [
+                        {index: true, element: <Videos />},
+                        {path: "canais", element: <Canais />},
+                        {path: "sites", element: <Sites />},
+                        {path: "ferramentas", element: <Ferramentas />},
+                        {path: "plataformas", element: <Plataformas />},
+                        {path: "livros", element: <Livros />},
+                        {path: "cursos", element: <Cursos />},
+                        {path: "inspiracoes", element: <Inspirações />},
+                        {path: "imagens", element: <Imagens />}
+                    ]
+                },
+
                 {path: "trabalhando", element: < Working/>},
                 {path: "blog", element: < Blog/>},
                 {path: "comunidade", element: < Community/>}

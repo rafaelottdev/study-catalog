@@ -1,77 +1,30 @@
 .nav {
-    height: 25px;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.button_wrapp {
-    height: 100%;
-
-    display: flex;
-    align-items: center;
-
-    padding: 0px 5px;
-
-    border-right: 1px solid white;
-    background-color: black;
-
-    cursor: pointer;
-}
-
-.button_wrapp:last-child {
-    border-right: none;
-    border-left: 1px solid white;
-}
-
-.button_wrapp:first-child > svg {
-    transform: rotateY(180deg);
-}
-
-.button_wrapp > svg {
-    width: 15px;
-    fill: white;
-}
-
-.recommendation_list_wrapp {
-    width: 100%;
-    height: 100%;
-    position: relative;
-
-    overflow-x: hidden;
+    padding: 0px 20px;
 }
 
 .recommendation_list {
+    width: 100%;
     height: 100%;
 
-    position: absolute;
-    left: 0;
-
     display: flex;
-    align-items: center;
-
-    /* background-color: purple; */
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
 }
 
 .recommendation_item {
-}
-
-.recommendation_item:not(:last-child) {
-    
+    margin-bottom: 10px;
 }
 
 .recommendation_item > a {
-    padding: 5px 15px 4px 15px;
+    padding: 3px 10px 3px 10px;
     
     font-size: 12px;
     font-family: var(--text_font_1);
     letter-spacing: .3px;
 
+    border-radius:  30px;
+
     color: white;
     background-color: black;
-}
-
-.recommendation_item:not(:last-child) > a {
-    border-right: 1px solid white;
 }
