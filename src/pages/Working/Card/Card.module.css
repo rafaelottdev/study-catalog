@@ -1,0 +1,83 @@
+.card {
+    margin-bottom: 30px;
+    padding: 0 0 15px 0;
+
+    color: white;
+    background-color: #151414;
+}
+
+.card_title_wrapp {
+    padding: 15px 0;
+
+    background-color: black;
+}
+
+.card_title_wrapp > h3 {
+    text-align: center;
+    font-family: var(--text_font_2);
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+.card_description {
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+
+.card_description > h4 {
+    padding: 13px 0;
+
+    text-align: center;
+    font-family: var(--text_font_1);
+    font-size: 0.875rem;
+    letter-spacing: .5px;
+}
+
+.card_description > p {
+    font-family: var(--text_font_1);
+    font-size: 0.75rem;
+    letter-spacing: .5px;
+    line-height: 1.2rem;
+}
+
+.progress {
+    display: flex;
+    padding: 0 10px;
+}
+
+.progress > p {
+    margin-right: 10px;
+
+    font-family: var(--text_font_1);
+    font-size: 0.75rem;
+    letter-spacing: .5px;
+}
+
+.progress_bar {
+    width: 50%;
+
+    padding: 1px;
+    position: relative;
+
+    border: 1px solid white;
+}
+
+.progress_bar > div {
+    width: 41.32%;
+    height: 100%;
+
+    background-color: white;
+}
+
+.progress_bar > p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-family: var(--text_font_1);
+    font-size: 0.563rem;
+    letter-spacing: .5px;
+
+    color: white;
+}

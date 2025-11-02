@@ -24,7 +24,7 @@ const AboutWebsite = () => {
 
                 <p>Também é um lugar onde estudantes autodidatas como eu podem interagir e se inspirar.</p>
 
-                <p>Fiz isso porque ter apenas um portfólio é algo comum, todo mundo faz. Eu prefiro me diferenciar e usar a criatividade.</p>
+                <p>Fiz isso porque ter apenas um portfólio é algo comum, todo mundo faz. Eu prefiro fazer algo um pouco diferente.</p>
             </section>
         </section>
     )
