@@ -1,7 +1,9 @@
+import styles from "./Community.module.css"
+
 const Community = () => {
     return (
-        <section>
-            Pagina de Comunidade
+        <section className={styles.community_container}>
+            <p>Em Breve</p>
         </section>
     )
 }

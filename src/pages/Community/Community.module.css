@@ -1,0 +1,12 @@
+.community_container {
+    padding-top: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.community_container {
+    font-family: var(--text_font_1);
+    text-transform: uppercase;
+}

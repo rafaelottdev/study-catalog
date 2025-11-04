@@ -7,6 +7,7 @@ import MainContent from "../layouts/Main/MainContent/MainContent"
 import ProjectsPage from "../pages/ProjectsPage/ProjectsPage"
 import Working from "../pages/Working/Working"
 import Blog from "../pages/Blog/Blog"
+import BlogPost from "../pages/Blog/BlogPost/BlogPost"
 import Community from "../pages/Community/Community"
 
 import Study from "../pages/Study/Study"
@@ -123,7 +124,9 @@ export const router = createBrowserRouter(
 
                 {path: "trabalhando", element: < Working/>},
                 {path: "blog", element: < Blog/>},
-                {path: "comunidade", element: < Community/>}
+                {path: "blog/:slug", element: <BlogPost />},
+
+                {path: "comunidade", element: <Community />}
             ]
         }
     ]

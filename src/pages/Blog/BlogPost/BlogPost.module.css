@@ -1,0 +1,28 @@
+.article_container {
+    padding: 30px;
+}
+
+.article_container > h2 {
+    margin-bottom: 20px;
+    font-family: var(--text_font_1);
+    font-size: 18px;
+    line-height: 1.5rem;
+    letter-spacing: .5px;
+}
+
+.article_container > h3,.article_container > h4, .article_container > h5 {
+    margin-bottom: 5px;
+    font-family: var(--text_font_1);
+    line-height: 1.5rem;
+    letter-spacing: .5px;
+    font-size: 16px;
+} 
+
+.article_container > p {
+    margin-bottom: 15px;
+    font-family: var(--text_font_2);
+    font-size: 12px;
+
+    letter-spacing: .5px;
+    line-height: 1.5rem;
+}

@@ -1,0 +1,38 @@
+.blog_container {
+    padding: 0px 30px 0 30px;
+}
+
+.blog_post_list {
+    margin-top: 50px;
+}
+
+.blog_post_item {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+
+.blog_post_link {
+    padding: 15px;
+
+    display: block;
+
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.062);
+    color: black;
+    background-color: white;
+}
+
+.blog_post_link > h3 {
+    font-size: 16px;
+    font-family: var(--text_font_1);
+
+    letter-spacing: .5px;
+    line-height: 1.5em;
+
+    margin-bottom: 10px;
+}
+
+.blog_post_link > p {
+    font-family: var(--text_font_2);
+    font-size: 12px;
+    letter-spacing: .5px;
+}

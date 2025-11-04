@@ -1,0 +1,34 @@
+.go_back_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.go_back_link {
+    padding: 3px 15px;
+    margin-bottom: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 30px;
+    background-color: black;
+}
+
+.go_back_link > p {
+    font-family: var(--text_font_1);
+    letter-spacing: .5px;
+    color: white;
+    font-size: 12px;
+}
+
+.go_back_icon_wrapp {
+    margin-right: 5px;
+}
+
+.go_back_icon_wrapp > svg {
+    width: 10px;
+    fill: white;
+    transform: rotateY(180deg);
+}
