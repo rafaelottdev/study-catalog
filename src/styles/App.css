@@ -1,4 +1,18 @@
 body {
-    padding-top: 80px;
-    position: relative;
+    height: 100%;
+    margin: 0;
+}
+
+.page_container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main_layout {
+    margin-top: 80px;
+
+    display: flex;
+    flex: 1;
+    flex-direction: column;
 }

@@ -25,13 +25,13 @@ function App() {
   }, [])
 
   return (
-    <>
+    <div className="page_container">
       <Header scrollPosition={scrollPosition} />
 
       <MainLayout />
 
       <Footer />
-    </>
+    </div>
   )
 }
 

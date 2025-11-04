@@ -19,7 +19,7 @@
 .recommendation_item > a {
     padding: 3px 10px 3px 10px;
     
-    font-size: 12px;
+    font-size: 0.75rem;
     font-family: var(--text_font_1);
     letter-spacing: .3px;
 

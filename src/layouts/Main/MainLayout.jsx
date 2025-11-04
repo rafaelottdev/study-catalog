@@ -2,7 +2,7 @@ import { Outlet } from "react-router-dom"
 
 const MainLayout = (scroll) => {
     return (
-        <main>
+        <main className="main_layout">
             <Outlet />
         </main>
     )
