@@ -16,6 +16,11 @@ import Intro from "../pages/Study/StudyContent/Intro/Intro"
 import HtmlCss from "../pages/Study/StudyContent/HtmlCss/HtmlCss"
     import HtmlCssCursos from "../pages/Study/StudyContent/HtmlCss/Cursos/HtmlCssCursos"
     import HtmlCssEspecificos from "../pages/Study/StudyContent/HtmlCss/Especificos/HtmlCssEspecificos"
+        import Modulo1 from "../pages/Study/StudyContent/HtmlCss/Cursos/Modulos/Modulo1/Modulo1"
+        import Modulo2 from "../pages/Study/StudyContent/HtmlCss/Cursos/Modulos/Modulo2/Modulo2"
+        import Modulo3 from "../pages/Study/StudyContent/HtmlCss/Cursos/Modulos/Modulo3/Modulo3"
+        import Modulo4 from "../pages/Study/StudyContent/HtmlCss/Cursos/Modulos/Modulo4/Modulo4"
+        import Modulo5 from "../pages/Study/StudyContent/HtmlCss/Cursos/Modulos/Modulo5/Modulo5"
 
 import Javascript from "../pages/Study/StudyContent/Javascript/Javascript"
     import JsCursos from "../pages/Study/StudyContent/Javascript/Cursos/JsCursos"
@@ -72,6 +77,11 @@ export const router = createBrowserRouter(
 
                         {path: "htmlcss", element: <HtmlCss />},
                             {path: "htmlcss/cursos", element: <HtmlCssCursos />},
+                            {path: "htmlcss/cursos/cev/modulo1", element: <Modulo1 />},
+                            {path: "htmlcss/cursos/cev/modulo2", element: <Modulo2 />},
+                            {path: "htmlcss/cursos/cev/modulo3", element: <Modulo3 />},
+                            {path: "htmlcss/cursos/cev/modulo4", element: <Modulo4 />},
+                            {path: "htmlcss/cursos/cev/modulo5", element: <Modulo5 />},
                             {path: "htmlcss/especificos", element: <HtmlCssEspecificos />},
 
                         {path: "javascript", element: <Javascript />},

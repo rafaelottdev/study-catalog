@@ -1,10 +1,22 @@
 import styles from "./HtmlCssCursos.module.css"
 
+import Card from "./Card/Card"
+
 const HtmlCssCursos = () => {
     return (
-        <div>
-            Html e Css Cursos
-        </div>
+        <section className={styles.courses_container}>
+            <div className={styles.courses_cev_container}>
+                <h3>Curso Em Video</h3>
+
+                <div className={styles.card_wrapp}>
+                    <Card title="Módulo 1" path="modulo1" />
+                    <Card title="Módulo 2" path="modulo2" />
+                    <Card title="Módulo 3" path="modulo3" />
+                    <Card title="Módulo 4" path="modulo4" />
+                    <Card title="Módulo 5" path="modulo5" />
+                </div>
+            </div>
+        </section>
     )
 }
 

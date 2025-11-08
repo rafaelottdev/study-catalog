@@ -26,7 +26,7 @@ const BlogPost = () => {
 
     return (
         <article className={styles.article_container}>
-            <GoBack />
+            <GoBack path="/blog" />
 
             <ReactMarkdown>{content}</ReactMarkdown>
         </article>
