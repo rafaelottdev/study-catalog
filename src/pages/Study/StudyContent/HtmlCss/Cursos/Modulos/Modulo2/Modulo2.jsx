@@ -22,7 +22,7 @@ const Modulo2 = () => {
             <section className={styles.image_wrapp}>
                 <h3>Imagens</h3>
 
-                <a href="/docs/html-css/cursos/modulo2/imagens.zip">Imagens</a>
+                <a href="/docs/html-css/cursos/modulo2/imagens.zip" download>Baixar - Imagens (zip)</a>
             </section>
         </section>
     )

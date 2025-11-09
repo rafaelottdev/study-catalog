@@ -1,0 +1,24 @@
+.especificos_container {
+    padding: 30px 30px 30px 30px;
+}
+
+.especificos_container > h3 {
+    margin-bottom: 20px;
+    font-family: var(--text_font_2);
+    text-align: center;
+    letter-spacing: .5px;
+}
+
+.especificos_list > li > a {
+    padding: 5px;
+
+    display: inline-block;
+    font-family: var(--text_font_1);
+    letter-spacing: .5px;
+    color: black;
+    font-size: 12px;
+}
+
+.especificos_list > li:not(:last-child) {
+    margin-bottom: 5px;
+}

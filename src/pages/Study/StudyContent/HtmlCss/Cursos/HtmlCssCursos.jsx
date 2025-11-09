@@ -1,10 +1,13 @@
 import styles from "./HtmlCssCursos.module.css"
 
 import Card from "./Card/Card"
+import GoBack from "../../../../../components/GoBack/GoBack"
 
 const HtmlCssCursos = () => {
     return (
         <section className={styles.courses_container}>
+            <GoBack path="/estudando/htmlcss" />
+
             <div className={styles.courses_cev_container}>
                 <h3>Curso Em Video</h3>
 

@@ -1,4 +1,5 @@
-import styles from "./HtmlCss.module.css"
+import { Link } from "react-router-dom"
+import styles from "../StudyContent.module.css"
 
 const HtmlCss = () => {
     return (
@@ -16,6 +17,16 @@ const HtmlCss = () => {
 
                 <li>
                     <a href="/docs/html-css/notas-soltas.pdf" target="_blank">Notas Soltas</a>
+                </li>
+           </ul>
+
+           <ul>
+                <li>
+                    <Link to="/estudando/htmlcss/cursos">Cursos</Link>
+                </li>
+
+                <li>
+                    <Link to="/estudando/htmlcss/especificos">Especificos</Link>
                 </li>
            </ul>
         </section>

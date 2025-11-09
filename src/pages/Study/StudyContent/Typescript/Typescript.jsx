@@ -1,4 +1,4 @@
-import styles from "./Typescript.module.css"
+import styles from "../StudyContent.module.css"
 
 const Typescript = () => {
     return (
