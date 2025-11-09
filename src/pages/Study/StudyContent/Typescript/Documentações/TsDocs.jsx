@@ -1,4 +1,4 @@
-import styles from "./TsDocs.module.css"
+import "../../../../../styles/studySubList.css"
 
 const TsDocs = () => {
     return (

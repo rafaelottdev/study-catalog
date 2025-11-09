@@ -4,10 +4,10 @@ import { Link } from "react-router-dom"
 
 const Linux = () => {
     return (
-        <section>
+        <section className={styles.container}>
             <h3>Linux Resumos</h3>
 
-            <ul>
+            <ul className={styles.main_list}>
                 <li>
                     <a href="/docs/linux/imgs.zip" download>Imagens (zip)</a>
                 </li>
@@ -21,7 +21,7 @@ const Linux = () => {
                 </li>
             </ul>
 
-            <ul>
+            <ul className={styles.list}>
                 <li>
                     <Link to="/estudando/linux/cursos">Cursos</Link>
                 </li>

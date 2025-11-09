@@ -1,15 +1,15 @@
-import styles from "./LinuxCursos.module.css"
+import "../../../../../styles/studySubList.css"
 
 import GoBack from "../../../../../components/GoBack/GoBack"
 
 const LinuxCursos = () => {
     return (
-        <section>
+        <section className="container">
             <GoBack path="/estudando/linux" />
 
             <h3>Linux Cursos</h3>
 
-            <ul>
+            <ul className="list">
                 <li>
                     <a href="/docs/linux/cursos/Linux-Berg.zip" download>Berg (zip)</a>
                 </li>

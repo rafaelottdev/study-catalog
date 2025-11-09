@@ -4,16 +4,16 @@ import { Link } from "react-router-dom"
 
 const Javascript = () => {
     return (
-        <section>
+        <section className={styles.container}>
             <h3>Javascript Resumo</h3>
 
-            <ul>
+            <ul className={styles.main_list}>
                 <li>
                     <a href="/docs/javascript/comandos-gerais.pdf" target="_blank">Comandos Gerais</a>
                 </li>
             </ul>
 
-            <ul>
+            <ul className={styles.list}>
                 <li>
                     <Link to="/estudando/javascript/cursos">Cursos</Link>
                 </li>

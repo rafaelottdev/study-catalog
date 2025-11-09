@@ -1,15 +1,15 @@
-import styles from "./jSCursos.module.css"
+import "../../../../../styles/studySubList.css"
 
 import GoBack from "../../../../../components/GoBack/GoBack"
 
 const jSCursos = () => {
     return (
-        <section>
+        <section className="container">
             <GoBack path="/estudando/javascript" />
 
             <h3>Javascript Cursos</h3>
 
-            <ul>
+            <ul className="list">
                 <li>
                     <a href="/docs/javascript/cursos/CeV.zip">Baixar - Curso Em Video (zip)</a>
                 </li>

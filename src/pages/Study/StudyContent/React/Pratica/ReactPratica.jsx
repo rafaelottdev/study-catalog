@@ -1,15 +1,15 @@
-import styles from "./ReactPratica.module.css"
+import "../../../../../styles/studySubList.css"
 
 import GoBack from "../../../../../components/GoBack/GoBack"
 
 const ReactPratica = () => {
     return (
-        <section>
+        <section className="container">
             <GoBack path="/estudando/react" />
 
             <h3>React Praticas</h3>
 
-            <ul>
+            <ul className="list">
                 <li>
                     <a href="/docs/react/pratica/comment-section.zip" download>Comment Section (zip)</a>
                 </li>

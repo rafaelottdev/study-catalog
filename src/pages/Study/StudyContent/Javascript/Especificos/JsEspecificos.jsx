@@ -1,15 +1,15 @@
-import styles from "./JsEspecificos.module.css"
+import "../../../../../styles/studySubList.css"
 
 import GoBack from "../../../../../components/GoBack/GoBack"
 
 const JsEspecificos = () => {
     return (
-        <section>
+        <section className="container">
             <GoBack path="/estudando/javascript" />
 
             <h3>Resumos</h3>
 
-            <ul>
+            <ul className="list">
                 <li>
                     <a href="/docs/javascript/especificos/A - funções.zip" downalod>Baixar - Funções (zip)</a>
                 </li>

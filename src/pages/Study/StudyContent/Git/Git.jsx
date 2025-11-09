@@ -4,10 +4,10 @@ import { Link } from "react-router-dom"
 
 const Git = () => {
     return (
-        <section>
+        <section className={styles.container}>
             <h3>Git e GitHub Resumos</h3>
 
-            <ul>
+            <ul className={styles.list}>
                 <li>
                     <Link to="/estudando/git/cursos">Cursos</Link>
                 </li>

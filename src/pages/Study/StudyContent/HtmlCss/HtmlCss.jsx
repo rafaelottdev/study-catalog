@@ -3,10 +3,10 @@ import styles from "../StudyContent.module.css"
 
 const HtmlCss = () => {
     return (
-        <section className={styles.htmlcss_container}>
+        <section className={styles.container}>
             <h3>HTML e CSS Resumo</h3>
 
-           <ul className={styles.htmlcss_list}>
+           <ul className={styles.main_list}>
                 <li>
                     <a href="/docs/html-css/html-elementos.pdf" target="_blank">HTML Elementos</a>
                 </li>
@@ -20,7 +20,7 @@ const HtmlCss = () => {
                 </li>
            </ul>
 
-           <ul>
+           <ul className={styles.list}>
                 <li>
                     <Link to="/estudando/htmlcss/cursos">Cursos</Link>
                 </li>

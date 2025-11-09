@@ -4,10 +4,10 @@ import { Link } from "react-router-dom"
 
 const Vue = () => {
     return (
-        <section>
+        <section className={styles.container}>
             <h3>Vue Resumos</h3>
 
-            <ul>
+            <ul className={styles.main_list}>
                 <li>
                     <a href="/docs/vue/API-options.pdf" target="_blank">API Options (pdf)</a>
                 </li>
@@ -21,7 +21,7 @@ const Vue = () => {
                 </li>
             </ul>
 
-            <ul>
+            <ul className={styles.list}>
                 <li>
                     <Link to="/estudando/vue/cursos">Cursos</Link>
                 </li>

@@ -1,15 +1,15 @@
-import styles from "./VueCursos.module.css"
+import "../../../../../styles/studySubList.css"
 
 import GoBack from "../../../../../components/GoBack/GoBack"
 
 const VueCursos = () => {
     return (
-        <section>
+        <section className="container">
             <GoBack path="/estudando/vue" />
 
             <h3>Vue Cursos</h3>
 
-            <ul>
+            <ul className="list">
                 <li>
                     <a href="/docs/vue/cursos/Hora de Codar.zip" downalod>Hora De Codar (zip)</a>
                 </li>

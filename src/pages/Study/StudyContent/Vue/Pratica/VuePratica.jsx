@@ -1,15 +1,15 @@
-import styles from "./VuePratica.module.css"
+import "../../../../../styles/studySubList.css"
 
 import GoBack from "../../../../../components/GoBack/GoBack"
 
 const VuePratica = () => {
     return (
-        <section>
+        <section className="container">
             <GoBack path="/estudando/vue" />
 
             <h3>Vue Pratica</h3>
 
-            <ul>
+            <ul className="list">
                 <li>
                     <a href="/docs/vue/pratica/comment-section.zip" download>Comment Section (zip)</a>
                 </li>
