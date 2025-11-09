@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import styles from "./studyNavbar.module.css"
+import styles from "./StudyNavbar.module.css"
 import StudySubList from "./StudySubList/StudySubList"
 import { useState } from "react"
 
