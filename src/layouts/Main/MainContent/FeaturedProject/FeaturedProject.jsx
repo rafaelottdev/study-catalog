@@ -1,6 +1,6 @@
 import projectImg from "../../../../assets/img/project-img.png"
 
-import styles from "./featuredProject.module.css"
+import styles from "./FeaturedProject.module.css"
 
 const FeaturedProject = () => {
     return (
