@@ -34,12 +34,8 @@
     justify-content: center;
 }
 
-.list > li {
-    
-}
-
 .list > li > a {
-    width: 85px;
+    width: 100px;
     height: 40px;
 
     display: flex;
@@ -57,4 +53,13 @@
 
 .list > li:first-child > a {
     margin-right: 10px;
+}
+
+.list > li > a > svg {
+    width: 12px;
+
+    margin-right: 5px;
+
+    stroke: black;
+    fill: transparent;
 }

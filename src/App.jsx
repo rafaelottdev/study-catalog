@@ -36,17 +36,3 @@ function App() {
 }
 
 export default App
-
-// fazer a pagina do typescript
-
-// consertar o tamanho dos icones na home -> habilidades
-
-// tirar o fundo vermelho da capa do cinemidia no projetos
-
-// deixar mais lendo o video da capa do cinemidia e fazer com que fique um tempo parado na home pra depois começar o video
-
-// colocar uma sobra nos cards do projetos
-
-// na pagina de estudos fazer para quando clicar em um dos estudos o menu fechar, ou quando clicar fora fechar tbm
-
-// colocar um icone de folder+flecha apontando pro folder pra mostrar que são caminhos, na pagina estudos (em todos)

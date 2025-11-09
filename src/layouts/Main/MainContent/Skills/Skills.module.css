@@ -71,3 +71,17 @@
     letter-spacing: .5px;
     font-family: var(--text_font_1);
 }
+
+/* icons */
+
+.skills_icon_wrapp .react_svg {
+    width: 21px;
+}
+
+.skills_icon_wrapp .git_svg {
+    width: 22px;
+}
+
+.skills_icon_wrapp .figma_svg {
+    width: 14px;
+}
