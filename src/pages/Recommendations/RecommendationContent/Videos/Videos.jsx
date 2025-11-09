@@ -2,9 +2,13 @@ import styles from "./Videos.module.css"
 
 const Videos = () => {
     return (
-        <div>
-            Videos
-        </div>
+        <section>
+            <ul>
+                <li>
+                    <a href=""></a>
+                </li>
+            </ul>
+        </section>
     )
 }
 

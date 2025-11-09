@@ -2,9 +2,13 @@ import styles from "./Sites.module.css"
 
 const Sites = () => {
     return (
-        <div>
-            Sites
-        </div>
+        <section>
+            <ul>
+                <li>
+                    <a href=""></a>
+                </li>
+            </ul>
+        </section>
     )
 }
 

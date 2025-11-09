@@ -2,9 +2,13 @@ import styles from "./Plataformas.module.css"
 
 const Plataformas = () => {
     return (
-        <div>
-            Plataformas
-        </div>
+        <section>
+            <ul>
+                <li>
+                    <a href=""></a>
+                </li>
+            </ul>
+        </section>
     )
 }
 

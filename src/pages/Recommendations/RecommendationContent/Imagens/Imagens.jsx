@@ -2,9 +2,13 @@ import styles from "./Imagens.module.css"
 
 const Imagens = () => {
     return (
-        <div>
-            Imagens
-        </div>
+        <section>
+            <ul>
+                <li>
+                    <a href=""></a>
+                </li>
+            </ul>
+        </section>
     )
 }
 
