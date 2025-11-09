@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom"
 import styles from "./StudyNavbar.module.css"
-import StudySubList from "./StudySubList/StudySubList"
 import { useState } from "react"
 
 const studyNavbar = () => {
@@ -9,67 +8,42 @@ const studyNavbar = () => {
             id: 1,
             title: "Html / Css",
             path: "htmlcss",
-            // items: {
-            //     topics: ["Cursos", "Especificos"]
-            // }
-            
         },
         {
             id: 2,
             title: "Javascript",
             path: "javascript",
-            // items: {
-            //     topics: ["Cursos", "Especificos"]
-            // }
         },
         {
             id: 3,
             title: "Typescript",
             path: "typescript",
-            // items: {
-            //     topics: ["Cursos", "Docs"]
-            // }
         },
         {
             id: 4,
             title: "React",
             path: "react",
-            // items: {
-            //     topics: ["Cursos", "Pratica"]
-            // }
             
         },
         {
             id: 5,
             title: "Vue",
             path: "vue",
-            // items: {
-            //     topics: ["Cursos", "Pratica"]
-            // }
         },
         {
             id: 6,
             title: "Git",
             path: "git",
-            // items: {
-            //     topics: ["Cursos"]
-            // }
         },
         {
             id: 7,
             title: "Linux",
             path: "linux",
-            // items: {
-            //     topics: ["Cursos"]
-            // }
         },
         {
             id: 8,
             title: "Outros",
             path: "outros",
-            // items: {
-            //     topics: []
-            // }
         }
     ]
 
@@ -119,13 +93,8 @@ const studyNavbar = () => {
                                                     ${activeItems[objList.id] ? `${styles.icon_rotate}` : ""}`}
                                                     onClick={() => toggleItem(objList.id)}
                                             >
-                                                {/* <svg viewBox="0 0 20 26">
-                                                    <path d="M14.4036 14.4442L2.88031 26L0 23.1116L10.0831 13L0 2.88843L2.88031 0L14.4036 11.5558C14.7855 11.9389 15 12.4583 15 13C15 13.5417 14.7855 14.0611 14.4036 14.4442Z"/>
-                                                </svg> */}
                                             </button>
                                         </div>
-
-                                        {/* <StudySubList objList={objList} activeItems={activeItems} /> */}
                                     </li>
                                 )
                             })
