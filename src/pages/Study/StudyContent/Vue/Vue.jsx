@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 const Vue = () => {
     return (
         <section className={styles.container}>
-            <h3>Vue Resumos</h3>
+            <h3>Vue Resumo</h3>
 
             <ul className={styles.main_list}>
                 <li>

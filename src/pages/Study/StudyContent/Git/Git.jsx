@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 const Git = () => {
     return (
         <section className={styles.container}>
-            <h3>Git e GitHub Resumos</h3>
+            <h3>Git e GitHub Resumo</h3>
 
             <ul className={styles.list}>
                 <li>

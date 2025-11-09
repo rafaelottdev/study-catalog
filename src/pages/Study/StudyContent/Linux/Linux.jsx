@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 const Linux = () => {
     return (
         <section className={styles.container}>
-            <h3>Linux Resumos</h3>
+            <h3>Linux Resumo</h3>
 
             <ul className={styles.main_list}>
                 <li>

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 const React = () => {
     return (
         <section className={styles.container}>
-            <h3>React Resumos</h3>
+            <h3>React Resumo</h3>
 
             <ul className={styles.main_list}>
                 <li>
