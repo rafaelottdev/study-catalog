@@ -11,9 +11,9 @@ const Modulo3 = () => {
                 <h3>HTML e CSS Resumo</h3>
 
                 <div className={styles.links_wrapp}>
-                    <a href="/docs/html-css/cursos/modulo3/html-css.pdf" target="_blank">CSS e HTML Resumo</a>
+                    <a href="/docs/html-css/cursos/modulo3/html-css.pdf" target="_blank">CSS e HTML Resumo (pdf)</a>
 
-                    <a href="/docs/html-css/cursos/modulo3/tabela.pdf" target="_blank">Tabelas Resumo</a>
+                    <a href="/docs/html-css/cursos/modulo3/tabela.pdf" target="_blank">Tabelas Resumo (pdf)</a>
                 </div>
             </section>
 

@@ -11,15 +11,15 @@ const GitCursos = () => {
 
             <ul className="list">
                 <li>
-                    <a href="/docs/git/cursos/CeV.zip" download>Curso Em Video (zip)</a>
+                    <a href="/docs/git/cursos/CeV.zip" download>Baixar - Curso Em Video (zip)</a>
                 </li>
 
                 <li>
-                    <a href="/docs/git/cursos/Dev-Aprender.zip" download>Dev Aprender (zip)</a>
+                    <a href="/docs/git/cursos/Dev-Aprender.zip" download>Baixar - Dev Aprender (zip)</a>
                 </li>
 
                 <li>
-                    <a href="/docs/git/cursos/matos.zip" download>Matos (zip)</a>
+                    <a href="/docs/git/cursos/matos.zip" download>Baixar - Matos (zip)</a>
                 </li>
             </ul>
         </section>

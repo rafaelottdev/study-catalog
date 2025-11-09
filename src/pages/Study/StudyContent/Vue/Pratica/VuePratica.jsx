@@ -11,11 +11,11 @@ const VuePratica = () => {
 
             <ul className="list">
                 <li>
-                    <a href="/docs/vue/pratica/comment-section.zip" download>Comment Section (zip)</a>
+                    <a href="/docs/vue/pratica/comment-section.zip" download>Baixar - Comment Section (zip)</a>
                 </li>
 
                 <li>
-                    <a href="/docs/vue/pratica/router-project.zip" download>Router Project (zip)</a>
+                    <a href="/docs/vue/pratica/router-project.zip" download>Baixar - Router Project (zip)</a>
                 </li>
             </ul>
         </section>

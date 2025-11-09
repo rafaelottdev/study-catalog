@@ -11,7 +11,7 @@ const ReactCursos = () => {
 
             <ul className="list">
                 <li>
-                    <a href="/docs/react/cursos/Hora de Codar.zip" download>Hora de Codar (zip)</a>
+                    <a href="/docs/react/cursos/Hora de Codar.zip" download>Baixar - Hora de Codar (zip)</a>
                 </li>
             </ul>
         </section>

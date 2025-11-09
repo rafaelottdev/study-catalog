@@ -11,19 +11,19 @@ const ReactPratica = () => {
 
             <ul className="list">
                 <li>
-                    <a href="/docs/react/pratica/comment-section.zip" download>Comment Section (zip)</a>
+                    <a href="/docs/react/pratica/comment-section.zip" download>Baixar - Comment Section (zip)</a>
                 </li>
 
                 <li>
-                    <a href="/docs/react/pratica/digital-buy.zip" download>Digital Buy (zip)</a>
+                    <a href="/docs/react/pratica/digital-buy.zip" download>Baixar - Digital Buy (zip)</a>
                 </li>
 
                 <li>
-                    <a href="/docs/react/pratica/hooks.zip" download>Hooks (zip)</a>
+                    <a href="/docs/react/pratica/hooks.zip" download>Baixar - Hooks (zip)</a>
                 </li>
 
                 <li>
-                    <a href="/docs/react/pratica/scroll-infinito.zip" download>Scroll Infinito (zip)</a>
+                    <a href="/docs/react/pratica/scroll-infinito.zip" download>Baixar - Scroll Infinito (zip)</a>
                 </li>
             </ul>
         </section>

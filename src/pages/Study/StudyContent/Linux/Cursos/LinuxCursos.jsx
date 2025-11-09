@@ -11,11 +11,11 @@ const LinuxCursos = () => {
 
             <ul className="list">
                 <li>
-                    <a href="/docs/linux/cursos/Linux-Berg.zip" download>Berg (zip)</a>
+                    <a href="/docs/linux/cursos/Linux-Berg.zip" download>Baixar - Berg (zip)</a>
                 </li>
 
                 <li>
-                    <a href="/docs/linux/cursos/Linux-CeV.zip" download>Curso Em Video (zip)</a>
+                    <a href="/docs/linux/cursos/Linux-CeV.zip" download>Baixar - Curso Em Video (zip)</a>
                 </li>
             </ul>
         </section>

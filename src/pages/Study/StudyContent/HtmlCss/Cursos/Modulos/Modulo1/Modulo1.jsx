@@ -11,11 +11,11 @@ const Modulo1 = () => {
                 <h3>HTML e CSS Resumo</h3>
 
                 <div className={styles.links_wrapp}>
-                    <a href="/docs/html-css/cursos/modulo1/HTML.pdf" target="_blank">Anotação HTML</a>
+                    <a href="/docs/html-css/cursos/modulo1/HTML.pdf" target="_blank">Anotação HTML (pdf)</a>
 
-                    <a href="/docs/html-css/cursos/modulo1/CSS.pdf" target="_blank">Anotação CSS</a>
+                    <a href="/docs/html-css/cursos/modulo1/CSS.pdf" target="_blank">Anotação CSS (pdf)</a>
                     
-                    <a href="/docs/html-css/cursos/modulo1/referencias.pdf" target="_blank">Anotação Referencias</a>
+                    <a href="/docs/html-css/cursos/modulo1/referencias.pdf" target="_blank">Anotação Referencias (pdf)</a>
                 </div>
             </section>
 

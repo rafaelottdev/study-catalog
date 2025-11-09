@@ -11,11 +11,11 @@ const jSCursos = () => {
 
             <ul className="list">
                 <li>
-                    <a href="/docs/javascript/cursos/CeV.zip">Baixar - Curso Em Video (zip)</a>
+                    <a href="/docs/javascript/cursos/CeV.zip" download>Baixar - Curso Em Video (zip)</a>
                 </li>
 
                 <li>
-                    <a href="/docs/javascript/cursos/CBF.zip">Baixar - CBF (zip)</a>
+                    <a href="/docs/javascript/cursos/CBF.zip" download>Baixar - CBF (zip)</a>
                 </li>
             </ul>
         </section>

@@ -9,7 +9,7 @@ const Javascript = () => {
 
             <ul className={styles.main_list}>
                 <li>
-                    <a href="/docs/javascript/comandos-gerais.pdf" target="_blank">Comandos Gerais</a>
+                    <a href="/docs/javascript/comandos-gerais.pdf" target="_blank">Comandos Gerais (pdf)</a>
                 </li>
             </ul>
 

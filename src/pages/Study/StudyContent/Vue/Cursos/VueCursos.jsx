@@ -11,7 +11,7 @@ const VueCursos = () => {
 
             <ul className="list">
                 <li>
-                    <a href="/docs/vue/cursos/Hora de Codar.zip" downalod>Hora De Codar (zip)</a>
+                    <a href="/docs/vue/cursos/Hora de Codar.zip" downalod>Baixar - Hora De Codar (zip)</a>
                 </li>
             </ul>
         </section>

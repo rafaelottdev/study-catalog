@@ -8,15 +8,15 @@ const HtmlCss = () => {
 
            <ul className={styles.main_list}>
                 <li>
-                    <a href="/docs/html-css/html-elementos.pdf" target="_blank">HTML Elementos</a>
+                    <a href="/docs/html-css/html-elementos.pdf" target="_blank">HTML Elementos (pdf)</a>
                 </li>
 
                 <li>
-                    <a href="/docs/html-css/css-seletores.pdf" target="_blank">CSS Seletores</a>
+                    <a href="/docs/html-css/css-seletores.pdf" target="_blank">CSS Seletores (pdf)</a>
                 </li>
 
                 <li>
-                    <a href="/docs/html-css/notas-soltas.pdf" target="_blank">Notas Soltas</a>
+                    <a href="/docs/html-css/notas-soltas.pdf" target="_blank">Notas Soltas (pdf)</a>
                 </li>
            </ul>
 
