@@ -2,7 +2,7 @@ import Home from "./Home/Home"
 import AboutWebsite from "./AboutWebsite/AboutWebsite"
 import AboutMe from "./AboutMe/AboutMe"
 import Skills from "./Skills/Skills"
-import FeaturedProject from "./featuredProject/featuredProject"
+import FeaturedProject from "./FeaturedProject/FeaturedProject"
 
 
 const MainContent = () => {
