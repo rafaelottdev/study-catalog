@@ -13,5 +13,3 @@ const Imagens = () => {
 }
 
 export default Imagens
-
-// Aumentar o tamanho do navbar de study, muito pequeno pro celular, ruim de clicar

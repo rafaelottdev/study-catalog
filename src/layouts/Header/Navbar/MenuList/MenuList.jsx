@@ -3,14 +3,18 @@ import { Link } from "react-router-dom"
 
 import styles from "./MenuList.module.css"
 
-const MenuList = ({ show, setShow }) => {
+const MenuList = ({ show, setShow, burgerRef }) => {
     const [active, setActive] = useState(false)
 
     const menuRef = useRef()
 
     useEffect(() => {
         function handleClickOutside(event) {
-            if (show && menuRef.current && !menuRef.current.contains(event.target)) {
+            if (
+                show && menuRef.current && 
+                !menuRef.current.contains(event.target) && 
+                !(burgerRef?.current?.contains(event.target))
+            ) {
                 setShow(false)
             }
         }

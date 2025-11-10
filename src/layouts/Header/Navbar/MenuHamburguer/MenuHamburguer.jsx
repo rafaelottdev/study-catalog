@@ -1,6 +1,10 @@
 import styles from "./MenuHamburguer.module.css"
 
-const MenuHamburguer = ({ onClick, show, setShow, isScrolling }) => {
+import { useRef } from "react"
+
+const MenuHamburguer = ({ onClick, show, isScrolling, ref }) => {
+    const burgerRef = useRef()
+
     return (
         <button 
         className={`
@@ -10,6 +14,8 @@ const MenuHamburguer = ({ onClick, show, setShow, isScrolling }) => {
         `} 
 
         onClick={onClick}
+
+        ref={ref}
         >
             <div className={styles.menu_bar}></div>
             <div className={styles.menu_bar}></div>
