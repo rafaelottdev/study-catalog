@@ -30,7 +30,7 @@
 }
 
 .more_icon_wrapp  {
-    margin-left: 5px;
+    margin-left: 8px;
 }
 
 .more_icon_wrapp > svg {
@@ -62,7 +62,9 @@
 
     font-size: 0.875rem;
     font-family: var(--text_font_1);
+    letter-spacing: .5px;
 
+    color: black;
     background-color: white;
 }
 
@@ -74,4 +76,8 @@
 
 .show_sublist {
     top: 100%;
+}
+
+.rotate_arrow > svg {
+    transform: rotate(90deg);
 }
