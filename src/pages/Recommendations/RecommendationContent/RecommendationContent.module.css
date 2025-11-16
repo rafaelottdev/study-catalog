@@ -15,9 +15,11 @@
 }
 
 .recommendation_list > li > a {
-    color: black;
+    padding: 5px;
 
     font-family: var(--text_font_1);
     font-size: 12px;
     letter-spacing: .5px;
+    
+    color: black;
 }
