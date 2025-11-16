@@ -1,9 +1,9 @@
-import styles from "./Canais.module.css"
+import styles from "../RecommendationContent.module.css"
 
 const Canais = () => {
     return (
-        <section>
-            <ul>
+        <section className={styles.recommendation_container}>
+            <ul className={styles.recommendation_list}>
                 <li>
                     <a href="https://www.youtube.com/@cursoemvideo" target="_blank">Curso em Video</a>
                 </li>

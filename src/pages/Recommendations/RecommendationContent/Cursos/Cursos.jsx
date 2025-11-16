@@ -1,9 +1,9 @@
-import styles from "./Cursos.module.css"
+import styles from "../RecommendationContent.module.css"
 
 const Cursos = () => {
     return (
-        <section>
-            <ul>
+        <section className={styles.recommendation_container}>
+            <ul className={styles.recommendation_list}>
                 <li>
                     <a href="https://www.youtube.com/playlist?list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n" target="_blank">
                         Curso Em Video - Curso de HTML5 e CSS3 Módulo 1
