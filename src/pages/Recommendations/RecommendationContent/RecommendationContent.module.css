@@ -7,7 +7,6 @@
 }
 
 .recommendation_list > li {
-
 }
 
 .recommendation_list > li:not(:last-child) {
@@ -15,8 +14,6 @@
 }
 
 .recommendation_list > li > a {
-    padding: 5px;
-
     font-family: var(--text_font_1);
     font-size: 12px;
     letter-spacing: .5px;
