@@ -62,3 +62,7 @@
 .icon_home_info:first-child {
     margin-right: 10px;
 }
+
+@media (min-width: 850px) {
+    
+}

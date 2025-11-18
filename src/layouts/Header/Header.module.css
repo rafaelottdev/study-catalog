@@ -35,3 +35,17 @@
 .header.scrolling::after {
     top: 0;
 }
+
+/* Media Query */
+
+@media (min-width: 850px) {
+    .header {
+        height: var(--header_height_desktop);
+        justify-content: center;
+    }
+
+    .header::after {
+        height: var(--header_height_desktop);
+        top: calc(var(--header_height_desktop) * -1);
+    }
+}

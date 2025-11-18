@@ -38,3 +38,9 @@
 .scrolling > div {
     background-color: white;
 }
+
+@media (min-width: 850px) {
+    .manu_btn {
+        display: none;
+    }
+}

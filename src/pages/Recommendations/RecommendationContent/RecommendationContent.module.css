@@ -3,12 +3,6 @@
     padding: 0 30px;
 }
 
-.recommendation_list {
-}
-
-.recommendation_list > li {
-}
-
 .recommendation_list > li:not(:last-child) {
     margin-bottom: 15px;
 }

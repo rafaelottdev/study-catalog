@@ -81,3 +81,117 @@
 .rotate_arrow > svg {
     transform: rotate(90deg);
 }
+
+/* Media Query */
+
+@media (min-width: 850px) {
+    .nav_list {
+        width: 100vw;
+        height: fit-content;
+
+        padding-top: 0px;
+
+        top: auto;
+        right: auto;
+        position: relative;
+
+        display: flex;
+        justify-content: space-between;
+
+        background-color: transparent;
+
+        z-index: 0;
+        transition: .3s;
+
+        background-color: transparent;
+    }
+
+    .wrapp_items {
+        display: flex;
+        padding: 0 80px;
+    }
+
+    .wrapp_items:first-child .nav_item:not(:last-child) {
+        margin-right: 80px;
+    }
+
+    .wrapp_items:last-child .nav_item:not(:first-child) {
+        margin-left: 110px;
+    }
+
+    .nav_link {
+        padding: 0px 15px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        font-size: 1.125rem;
+        font-family: var(--subtitle_font);
+        letter-spacing: 1px;
+
+        border-radius: 30px;
+
+        color: black;
+        background-color: transparent;
+    }
+
+    .nav_link:hover {
+        color: white;
+        background-color: black;
+    }
+
+    .nav_link:hover .more_icon_wrapp > svg {
+        fill: white;
+    }
+
+    .more_icon_wrapp  {
+        margin-left: 5px;
+    }
+
+    .more_icon_wrapp > svg {
+        fill: black;
+    }
+
+    .more_sublist {
+        width: 130px;
+        height: 0px;
+
+        position: absolute;
+        top: 40px;
+        left: 50%;
+
+        transform: translate(-50%, 0%);
+
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        z-index: -1;
+
+        transition: .3s;
+        overflow: hidden;
+    }
+
+    .more_sublist_item {
+        padding: 0px;
+    }
+
+    .more_sublist_link {
+        font-size: 1.125rem;
+        font-family: var(--subtitle_font);
+        letter-spacing: 1px;
+
+        display: flex;
+
+        box-shadow: 1px 1px 1px 1px black;
+
+        color: black;
+        background-color: white;
+    }
+
+    /* Estilos interativos */
+
+    .show_sublist {
+        height: 43px;
+    }
+}

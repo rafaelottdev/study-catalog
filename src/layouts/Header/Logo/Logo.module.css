@@ -26,3 +26,20 @@
 .scrolling {
     color: white;
 }
+
+@media (min-width: 850px) {
+    .logo_wrapp {
+        width: 70px;
+
+        position: absolute;
+        top: 40px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .logo_title {
+        line-height: 1.2em;
+        font-size: 1.125rem;
+        letter-spacing: 1px;
+    }
+}
