@@ -4,20 +4,22 @@ import AboutMe from "./AboutMe/AboutMe"
 import Skills from "./Skills/Skills"
 import FeaturedProject from "./FeaturedProject/FeaturedProject"
 
+import styles from "./MainContent.module.css"
 
 const MainContent = () => {
     return (
-        <>
-            <Home />
+        <div className={styles.layout}>
+            <div className={styles.sectionGroupTop}>
+                <Home />
+                <AboutWebsite />
+            </div>
 
-            <AboutWebsite />
-
-            <AboutMe />
-
-            <Skills />
-
-            <FeaturedProject />
-        </>
+            <div className={styles.sectionGroupBottom}>
+                <AboutMe />
+                <Skills />
+                <FeaturedProject />
+            </div>
+        </div>
     )
 }
 

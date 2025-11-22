@@ -64,5 +64,29 @@
 }
 
 @media (min-width: 850px) {
-    
+    .home_title_container > p:first-child {
+        font-size: 1.300rem;
+        letter-spacing: .5px;
+    }
+
+    .home_title_container > h1 {
+        font-size: 4rem;
+    }
+
+    .dev_function_wrapp {
+        width: 215px;
+        height: 23px;
+
+        margin: 10px auto 0 auto;
+    }
+
+    .dev_function_wrapp > p {
+        font-size: 1rem;
+        letter-spacing: .5px;
+    }
+
+    .icon_home_info > svg {
+        width: 25px;
+        height: 25px;
+    }
 }

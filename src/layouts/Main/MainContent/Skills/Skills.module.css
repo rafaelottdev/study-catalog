@@ -85,3 +85,22 @@
 .skills_icon_wrapp .figma_svg {
     width: 14px;
 }
+
+@media (min-width: 850px) {
+    .skills_container {
+        width: 350px;
+    }
+
+    .title {
+        font-size: .8rem;
+    }
+
+    .title_icon_wrapp {
+        width: 19px;
+        height: 16px;
+    }
+
+    .skills_name {
+        font-size: 13px;
+    }
+}

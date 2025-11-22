@@ -76,3 +76,33 @@
 .featuredProject_btn:first-child {
     margin-right: 10px;
 }
+
+@media (min-width: 850px) {
+    .title_icon_wrapp {
+        width: 20px;
+        height: 20px;
+
+        margin: 0px 10px 0px 0px;
+
+        display: flex;
+    }
+
+    .title {
+        font-size: .8rem;
+    }
+
+    .info_project_wrapp > p {
+        max-width: 300px;
+        margin-bottom: 15px;
+
+        font-size: 13px;
+        letter-spacing: .5px;
+    }
+
+    .featuredProject_btn {
+        width: 70px;
+        height: 20px;
+
+        font-size: 13px;
+    }
+}

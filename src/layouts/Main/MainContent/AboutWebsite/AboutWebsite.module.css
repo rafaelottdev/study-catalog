@@ -41,3 +41,25 @@
 .text > p:not(:last-child) {
     margin-bottom: 10px;
 }
+
+@media (min-width: 850px) {
+    .aboutWebsite_container {
+        margin-top: 51px;
+    }
+
+    .title_wrapp {
+        margin-bottom: 20px;
+    }
+
+    .title_icon_wrapp {
+        width: 18px;
+        height: 18px;
+    }
+
+    .text {
+        width: 750px;
+
+        font-size: 14px;
+        letter-spacing: .5px;
+    }
+}

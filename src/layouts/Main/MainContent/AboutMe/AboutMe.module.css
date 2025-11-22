@@ -37,3 +37,21 @@
     font-family: var(--text_font_1);
     line-height: 1.5em;
 }
+
+@media (min-width: 850px) {
+    .title_icon_wrapp {
+        width: 15px;
+        height: 17px;
+    }
+
+    .title {
+        font-size: .8rem;
+    }
+
+    .text {
+        width: 500px;
+
+        font-size: 13px;
+        letter-spacing: .5px;
+    }
+}
