@@ -30,6 +30,7 @@
     background-color: black;
 
     transition: top .1s;
+    z-index: -1;
 }
 
 .header.scrolling::after {

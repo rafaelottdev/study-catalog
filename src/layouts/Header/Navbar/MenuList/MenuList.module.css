@@ -102,8 +102,6 @@
 
         z-index: 0;
         transition: .3s;
-
-        background-color: transparent;
     }
 
     .wrapp_items {
@@ -193,5 +191,14 @@
 
     .show_sublist {
         height: 43px;
+    }
+
+    .items_color div > li > a {
+        color: white;
+    }
+
+    .items_color div > li > a:hover {
+        color: black;
+        background-color: white;
     }
 }

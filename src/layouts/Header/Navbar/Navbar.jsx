@@ -12,7 +12,7 @@ const Navbar = ({ isScrolling, show, setShow }) => {
         <nav>
             <MenuHamburguer ref={burgerRef} onClick={() => setShow(!show)} show={show} isScrolling={isScrolling} />
 
-            <MenuList show={show} setShow={setShow} burgerRef={burgerRef}/>
+            <MenuList show={show} setShow={setShow} burgerRef={burgerRef} isScrolling={isScrolling}/>
         </nav>
     )
 }

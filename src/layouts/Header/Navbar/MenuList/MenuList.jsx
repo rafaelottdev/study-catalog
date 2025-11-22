@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 
 import styles from "./MenuList.module.css"
 
-const MenuList = ({ show, setShow, burgerRef }) => {
+const MenuList = ({ show, setShow, burgerRef, isScrolling }) => {
     const [active, setActive] = useState(false)
 
     const menuRef = useRef()
@@ -27,7 +27,7 @@ const MenuList = ({ show, setShow, burgerRef }) => {
     }, [show])
 
     return (
-        <ul  ref={menuRef} className={`${styles.nav_list} ${show ? `${styles.show_list}` : ""}`}>
+        <ul  ref={menuRef} className={`${styles.nav_list} ${show ? `${styles.show_list}` : ""} ${isScrolling ? `${styles.items_color}` : ""}`}>
             <div className={styles.wrapp_items}>
                 <li className={styles.nav_item} onClick={() => setShow(!show)}>
                     <Link to="/estudando" className={styles.nav_link}>Estudos</Link>
