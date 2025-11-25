@@ -11,3 +11,17 @@
     font-family: var(--subtitle_font);
     letter-spacing: 1px;
 }
+
+@media (min-width: 850px) {
+    .study_container {
+        margin-top: 100px;
+    }
+
+    .study_title {
+        display: none;
+    }
+
+    .study_wrapp {
+        display: flex;
+    }
+}

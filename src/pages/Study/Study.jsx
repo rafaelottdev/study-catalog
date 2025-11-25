@@ -10,9 +10,11 @@ const Study = () => {
                 <h2>Estudos</h2>
             </div>
 
-            <StudyNavbar />
+            <div className={styles.study_wrapp}>
+                <StudyNavbar />
 
-            <StudyContent /> 
+                <StudyContent />
+            </div>
         </section>
     )
 }

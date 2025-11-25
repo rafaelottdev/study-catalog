@@ -60,7 +60,7 @@ svg {
 }
 
 .tecnology_wrapp {
-    width: inherit;
+    width: 100%;
     height: 25px;
 
     display: flex;
@@ -109,4 +109,47 @@ svg {
 
 .expand {
     height: auto;
+}
+
+@media (min-width: 850px) {
+    .tecnology_nav {
+        margin-right: 200px;
+        padding-left: 180px;
+    }
+
+    .tecnology_list {
+        height: auto;
+    }
+
+    .intro_icon_btn {
+        display: none;
+    }
+
+    .intro_wrapp {
+        width: 120px;
+        height: 35px;
+    }
+
+    .intro_wrapp > a {
+        width: 100%;
+        height: 35px;
+
+        font-size: 14px;
+    }
+
+    .tecnology_list {
+        width: 120px;
+    }
+
+    .tecnology_wrapp {
+        width: 100%;
+        height: 35px;
+    }
+
+    .tecnology_wrapp > a {
+        width: 100%;
+        height: 100%;
+
+        font-size: 14px;
+    }
 }

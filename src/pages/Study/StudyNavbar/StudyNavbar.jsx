@@ -83,14 +83,6 @@ const studyNavbar = () => {
                                             >
                                                 {objList.title}
                                             </Link>
-
-                                            <button 
-                                                className={`
-                                                    ${styles.tecnology_icon_btn} 
-                                                    ${activeItems[objList.id] ? `${styles.icon_rotate}` : ""}`}
-                                                    onClick={() => toggleItem(objList.id)}
-                                            >
-                                            </button>
                                         </div>
                                     </li>
                                 )
