@@ -19,3 +19,15 @@
     flex-direction: column;
     gap: 20px;
 }
+
+@media (min-width: 850px) {
+    .courses_container {
+        margin: 0 0px 0 30px;
+        padding: 0px;
+    }
+
+    .card_wrapp {
+        padding: 0px;
+        flex-direction: row;
+    }
+}

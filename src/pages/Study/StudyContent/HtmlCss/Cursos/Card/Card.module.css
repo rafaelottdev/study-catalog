@@ -12,3 +12,11 @@
     color: black;
     background-color: white;
 }
+
+@media (min-width: 850px) {
+    .module_card {
+        padding: 20px 30px;
+
+        font-size: 13px;
+    }
+}

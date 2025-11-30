@@ -56,3 +56,13 @@
     font-family: var(--text_font_1);
     letter-spacing: .5px;
 }
+
+@media (min-width: 850px) {
+    .module__container {
+        margin-left: 240px;
+    }
+
+    .links_wrapp > a, .image_wrapp > a {
+        font-size: 13px;
+    }
+}

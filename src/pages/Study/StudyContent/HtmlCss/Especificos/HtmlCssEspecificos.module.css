@@ -22,3 +22,19 @@
 .especificos_list > li:not(:last-child) {
     margin-bottom: 5px;
 }
+
+@media (min-width: 850px) {
+    .especificos_container {
+        margin-left: 255px;
+        padding: 0;
+    }
+
+    .especificos_list > li > a {
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+
+    .especificos_list > li:last-child > a {
+        margin-bottom: 30px;
+    }
+}
