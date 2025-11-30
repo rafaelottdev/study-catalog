@@ -36,7 +36,7 @@ const Projects = () => {
                 <h2>Projetos</h2>
             </div>
 
-            <section>
+            <section className={styles.projects_wrapp}>
                 {
                     ProjectListInfo.map((project) => {
                         return (

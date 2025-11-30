@@ -23,6 +23,8 @@ const studyNavbar = () => {
 
     const [isExpanded, setIsExpanded] = useState(false)
     const [activeItems, setActiveItems] = useState({})
+    const [selectedItem, setSelectedItem] = useState()
+
     const navRef = useRef(null)
 
     function toggleItem(id) {
@@ -48,7 +50,7 @@ const studyNavbar = () => {
         }
     }, [])
 
-    function handleLinkClick() {
+    const handleLinkClick = () => {
         setIsExpanded(false)
     }
 
@@ -79,7 +81,7 @@ const studyNavbar = () => {
                                         <div className={styles.tecnology_wrapp}>
                                             <Link 
                                                 to={`/estudando/${objList.path}`}
-                                                onClick={handleLinkClick}
+                                                onClick={() => handleLinkClick}
                                             >
                                                 {objList.title}
                                             </Link>

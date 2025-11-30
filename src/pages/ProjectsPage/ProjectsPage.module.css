@@ -11,3 +11,24 @@
     font-family: var(--subtitle_font);
     letter-spacing: 1px;
 }
+
+@media (min-width: 850px) {
+    .projects_container {
+        margin: 70px 0 50px 0;
+    }
+
+    .projects_title {
+        display: none;
+    }
+
+    .projects_wrapp {
+        width: 100%;
+
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 50px;
+
+        padding: 0 90px;
+    }
+}

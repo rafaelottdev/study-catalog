@@ -135,6 +135,14 @@ svg {
         height: 35px;
 
         font-size: 14px;
+
+        color: black;
+        background-color: transparent;
+    }
+
+    .intro_wrapp > a:hover {
+        color: white;
+        background-color: black;
     }
 
     .tecnology_list {
@@ -151,5 +159,10 @@ svg {
         height: 100%;
 
         font-size: 14px;
+    }
+
+    .tecnology_wrapp > a:hover {
+        color: white;
+        background-color: black;
     }
 }
