@@ -14,3 +14,15 @@
     
     color: black;
 }
+
+@media (min-width: 850px) {
+    .recommendation_list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+    }
+
+    .recommendation_list > li:not(:last-child) {
+        margin-bottom: 20px;
+    }
+}

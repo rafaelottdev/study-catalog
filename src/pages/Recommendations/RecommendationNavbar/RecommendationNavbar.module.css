@@ -28,3 +28,26 @@
     color: white;
     background-color: black;
 }
+
+@media (min-width: 850px) {
+    .nav {
+        margin-bottom: 80px;
+        padding: 0;
+    }
+
+    .recommendation_list {
+        width: 450px;
+
+        margin: 0 auto;
+    }
+
+    .recommendation_item {
+        margin-bottom: 15px;
+    }
+
+    .recommendation_item > a {
+        padding: 5px 15px;
+        
+        font-size: 13px;
+    }
+}

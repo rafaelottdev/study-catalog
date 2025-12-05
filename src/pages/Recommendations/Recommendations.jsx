@@ -5,7 +5,7 @@ import RecommendationContent from "./RecommendationContent/RecommendationContent
 
 const Recommendations = () => {
     return (
-        <section>
+        <section className={styles.recommendation_container}>
             <div className={styles.recommendation_title}>
                 <h2>Recomendações</h2>
             </div>

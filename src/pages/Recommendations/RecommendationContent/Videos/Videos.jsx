@@ -25,7 +25,7 @@ const Videos = () => {
                 </li>
 
                 <li>
-                    <a href="https://www.youtube.com/watch?v=sx4hAHhO9CY" target="_blank">Conhecimentos Básicos para Iniciantes em Programação | Série "Começando aos 40"</a>
+                    <a href="https://www.youtube.com/watch?v=sx4hAHhO9CY" target="_blank">Conhecimentos Básicos para Iniciantes em Programação</a>
                 </li>
 
                 <li>
@@ -33,11 +33,11 @@ const Videos = () => {
                 </li>
 
                 <li>
-                    <a href="https://www.youtube.com/watch?v=oUPaJxk6TZ0" target="_blank">Guia DEFINITIVO de Aprendendo a Aprender | A maior BRONCA da sua vida [RATED R]</a>
+                    <a href="https://www.youtube.com/watch?v=oUPaJxk6TZ0" target="_blank">Guia DEFINITIVO de Aprendendo a Aprender</a>
                 </li>
 
                 <li>
-                    <a href="https://www.youtube.com/watch?v=EW7m2WIvFgQ&t=686s" target="_blank">Como Eu Programo e Hospedo Sites da Forma Mais Moderna que Existe [GUIA DEFINITIVO]</a>
+                    <a href="https://www.youtube.com/watch?v=EW7m2WIvFgQ&t=686s" target="_blank">Como Eu Programo e Hospedo Sites da Forma Mais Moderna que Existe</a>
                 </li>
 
                 <li>
@@ -49,7 +49,7 @@ const Videos = () => {
                 </li>
 
                 <li>
-                    <a href="https://www.youtube.com/watch?v=dZJbORri0ro" target="_blank">O Primeiro Vídeo Que Gostaria De Ter Assistido Sobre Como Controlar a Ansiedade</a>
+                    <a href="https://www.youtube.com/watch?v=dZJbORri0ro" target="_blank">Como Controlar a Ansiedade</a>
                 </li>
             </ul>
         </section>

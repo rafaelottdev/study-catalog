@@ -38,13 +38,13 @@ const Project = ({ id, title, imgPath, description, features, iconList }) => {
                 </div>
 
                 <div className={styles.button_wrapp}>
-                    <button>
+                    <a href="">
                         Site
-                    </button>
+                    </a>
 
-                    <button>
+                    <a href="">
                         Código
-                    </button>
+                    </a>
                 </div>
             </div>
         </section>

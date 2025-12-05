@@ -11,3 +11,13 @@
     font-family: var(--subtitle_font);
     letter-spacing: 1px;
 }
+
+@media (min-width: 850px) {
+    .recommendation_container {
+        margin-top: 15px;
+    }
+
+    .recommendation_title > h2 {
+        display: none;
+    }
+}

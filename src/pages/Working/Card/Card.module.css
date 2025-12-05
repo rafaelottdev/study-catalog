@@ -66,7 +66,10 @@
     width: 0%;
     height: 100%;
 
-    background-color: white;
+    background: rgba(255, 255, 255, 0.278);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.4px);
+    -webkit-backdrop-filter: blur(6.4px);
 }
 
 .progress_bar > p {
@@ -80,4 +83,38 @@
     letter-spacing: .5px;
 
     color: white;
+}
+
+@media (min-width: 850px) {
+    .card {
+        width: 400px;
+        margin-bottom: 0px;
+    }
+
+    .card_title_wrapp > h3 {
+        font-size: 1.125rem;
+    }
+
+    .card_description {
+        margin-bottom: 20px;
+    }
+
+    .card_description > p {
+        font-size: 0.813rem;
+    }
+
+    .progress > p {
+        font-size: 0.813rem;
+    }
+
+    .progress_bar > p {
+        font-size: 0.75rem;
+    }
+
+    .progress_bar > div {
+        background: rgba(255, 255, 255, 0.278);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(6.4px);
+        -webkit-backdrop-filter: blur(6.4px);
+    }
 }
