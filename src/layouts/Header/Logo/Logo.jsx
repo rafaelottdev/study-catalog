@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import styles from "./Logo.module.css"
 
-const Logo = ({ isScrolling, show, setShow }) => {
+const Logo = ({ isScrolling, show, setShow, active, setActive }) => {
     const scrollToTop = () => {
         window.scrollTo(
             {
@@ -18,6 +18,7 @@ const Logo = ({ isScrolling, show, setShow }) => {
                 onClick={() => {
                     setShow(false)
                     scrollToTop()
+                    setActive(false)
                 }}
             >
                 <h1 className={styles.logo_title}>Study Catalog</h1>

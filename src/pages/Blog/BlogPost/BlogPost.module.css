@@ -26,3 +26,27 @@
     letter-spacing: .5px;
     line-height: 1.5rem;
 }
+
+@media (min-width: 850px) {
+    .article_container {
+        padding: 50px 350px;
+    }
+
+    .article_container > h2 {
+        margin-top: 20px;
+        margin-bottom: 25px;
+
+        font-size: 31px;
+        line-height: 1.5em;
+    }
+
+    .article_container > h3,.article_container > h4, .article_container > h5 {
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+
+    .article_container > p {
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+}

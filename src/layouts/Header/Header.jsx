@@ -7,6 +7,7 @@ import styles from "./Header.module.css"
 
 const Header = ({ scrollPosition }) => {
     const [show, setShow] = useState(false)
+    const [active, setActive] = useState(false)
 
     let isScrolling = false
 
@@ -16,9 +17,9 @@ const Header = ({ scrollPosition }) => {
 
     return (
         <header className={`${styles.header} ${isScrolling ? `${styles.scrolling}` : ""}`}>
-            <Logo isScrolling={isScrolling} show={show} setShow={setShow} />
+            <Logo isScrolling={isScrolling} show={show} setShow={setShow} active={active} setActive={setActive} />
             
-            <Navbar isScrolling={isScrolling} show={show} setShow={setShow} />
+            <Navbar isScrolling={isScrolling} show={show} setShow={setShow} active={active} setActive={setActive} />
         </header>
     )
 }

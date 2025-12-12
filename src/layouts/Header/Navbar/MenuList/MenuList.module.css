@@ -129,6 +129,7 @@
         letter-spacing: 1px;
 
         border-radius: 30px;
+        cursor: pointer;
 
         color: black;
         background-color: transparent;
@@ -200,5 +201,10 @@
     .items_color div > li > a:hover {
         color: black;
         background-color: white;
+    }
+
+    .active {
+        color: white;
+        background-color: black;
     }
 }

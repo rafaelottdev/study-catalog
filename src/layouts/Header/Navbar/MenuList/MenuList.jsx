@@ -1,11 +1,9 @@
 import { useState, useEffect, useRef } from "react"
-import { Link } from "react-router-dom"
+import { Link, NavLink } from "react-router-dom"
 
 import styles from "./MenuList.module.css"
 
-const MenuList = ({ show, setShow, burgerRef, isScrolling }) => {
-    const [active, setActive] = useState(false)
-
+const MenuList = ({ show, setShow, burgerRef, isScrolling, active, setActive }) => {
     const menuRef = useRef()
 
     useEffect(() => {
@@ -30,25 +28,71 @@ const MenuList = ({ show, setShow, burgerRef, isScrolling }) => {
         <ul  ref={menuRef} className={`${styles.nav_list} ${show ? `${styles.show_list}` : ""} ${isScrolling ? `${styles.items_color}` : ""}`}>
             <div className={styles.wrapp_items}>
                 <li className={styles.nav_item} onClick={() => setShow(!show)}>
-                    <Link to="/estudando" className={styles.nav_link}>Estudos</Link>
+                    <NavLink 
+                        to="/estudando" 
+                        className={({ isActive }) => 
+                            isActive ? `${styles.nav_link} ${styles.active}` : styles.nav_link
+                        }
+                        onClick={() => {
+                            setShow(!show)
+                            setActive(false)}
+                        }
+                    >
+                        Estudos</NavLink>
                 </li>
 
                 <li className={styles.nav_item}>
-                    <Link to="/projetos" className={styles.nav_link} onClick={() => setShow(!show)}>Projetos</Link>
+                    <NavLink to="/projetos" 
+                        className={({ isActive }) => 
+                            isActive ? `${styles.nav_link} ${styles.active}` : styles.nav_link
+                        }
+                        onClick={() => {
+                            setShow(!show)
+                            setActive(false)}
+                        }
+                    >
+                        Projetos</NavLink>
                 </li>
 
                 <li className={styles.nav_item}>
-                    <Link to="/recomendações" className={styles.nav_link} onClick={() => setShow(!show)}>Recomendações</Link>
+                    <NavLink to="/recomendações"
+                        className={({ isActive }) => 
+                            isActive ? `${styles.nav_link} ${styles.active}` : styles.nav_link
+                        }
+                        onClick={() => {
+                            setShow(!show)
+                            setActive(false)}
+                        }
+                    >
+                        Recomendações</NavLink>
                 </li>
             </div>
 
             <div className={styles.wrapp_items}>
                 <li className={styles.nav_item}>
-                    <Link to="/trabalhando" className={styles.nav_link} onClick={() => setShow(!show)}>Trabalhando</Link>
+                    <NavLink to="/trabalhando"
+                        className={({ isActive }) => 
+                            isActive ? `${styles.nav_link} ${styles.active}` : styles.nav_link
+                        }
+                        onClick={() => {
+                            setShow(!show)
+                            setActive(false)}
+                        }
+                    >
+                        Trabalhando</NavLink>
                 </li>
 
                 <li className={styles.nav_item}>
-                    <Link to="/blog" className={styles.nav_link} onClick={() => setShow(!show)}>Blog</Link>
+                    <NavLink to="/blog"
+                        className={({ isActive }) => 
+                            isActive ? `${styles.nav_link} ${styles.active}` : styles.nav_link
+                        }
+                        onClick={() => {
+                            setShow(!show)
+                            setActive(false)}
+                        }
+                    >
+                        Blog</NavLink>
                 </li>
 
                 <li className={`${styles.nav_item} ${styles.nav_item_sublist}`}>
@@ -63,7 +107,13 @@ const MenuList = ({ show, setShow, burgerRef, isScrolling }) => {
 
                     <ul className={`${styles.more_sublist} ${active ? `${styles.show_sublist}` : ""}`}>
                         <li className={styles.more_sublist_item}>
-                            <Link to="/comunidade" className={styles.more_sublist_link} onClick={() => setShow(!show)}>Comunidade</Link>
+                            <NavLink to="/comunidade" 
+                                className={({ isActive }) => 
+                                    isActive ? `${styles.nav_link} ${styles.active}` : styles.nav_link
+                                }
+                                onClick={() => setShow(!show)}
+                            >
+                                Comunidade</NavLink>
                         </li>
                     </ul>
                 </li>
