@@ -21,7 +21,7 @@ const Logo = ({ isScrolling, show, setShow, active, setActive }) => {
                     setActive(false)
                 }}
             >
-                <h1 className={styles.logo_title}>Study Catalog</h1>
+                <h1 className={styles.logo_title}>Portfolio</h1>
             </Link>
         </div>
     )
