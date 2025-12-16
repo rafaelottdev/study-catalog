@@ -165,4 +165,9 @@ svg {
         color: white;
         background-color: black;
     }
+
+    .active {
+        color: white !important;
+        background-color: black !important;
+    }
 }

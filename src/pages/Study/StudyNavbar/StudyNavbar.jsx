@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+import { Link, NavLink } from "react-router-dom"
 import styles from "./StudyNavbar.module.css"
 import { useState, useEffect, useRef } from "react"
 
@@ -59,7 +59,17 @@ const studyNavbar = () => {
             <ul className={styles.intro_list}>
                 <li className={styles.intro_item}>
                     <div className={styles.intro_wrapp}>
-                        <Link to="">Introdução</Link>
+                        <NavLink 
+                            to="" 
+                            onClick={handleLinkClick}
+                            end
+                            className={({ isActive }) =>
+                                isActive
+                                    ? `${styles.tecnology_link} ${styles.active}`
+                                    : styles.tecnology_link
+                            }
+                        >
+                            Introdução</NavLink>
 
                         <button 
                         className={`
@@ -79,12 +89,17 @@ const studyNavbar = () => {
                                 return (
                                     <li key={objList.id} className={styles.tecnology_item}>
                                         <div className={styles.tecnology_wrapp}>
-                                            <Link 
+                                            <NavLink 
                                                 to={`/estudando/${objList.path}`}
-                                                onClick={() => handleLinkClick}
+                                                onClick={handleLinkClick}
+                                                className={({ isActive }) =>
+                                                    isActive
+                                                        ? `${styles.tecnology_link} ${styles.active}`
+                                                        : styles.tecnology_link
+                                                }
                                             >
                                                 {objList.title}
-                                            </Link>
+                                            </NavLink>
                                         </div>
                                     </li>
                                 )
