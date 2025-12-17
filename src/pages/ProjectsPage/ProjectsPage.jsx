@@ -7,7 +7,7 @@ const Projects = () => {
         {
             id: 1,
             title: "Cinemidia",
-            imgPath: "cinemidia-project.jpg",
+            imgPath: "cinemidia-project-home.jpg",
             description: "Site completo de filmes e séries, com informações detalhadas , avaliações, recomendações e trailers.",
             features: "Utiliza a API TMDB, me permitindo treinar o consumo e tratamento de dados de todos os tipos.",
             iconList: [
